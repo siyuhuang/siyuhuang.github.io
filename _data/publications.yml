@@ -54,7 +54,6 @@
   code: "https://github.com/Xinrui014/SoftShadow"
   tags:
     - Image Restoration
-    - Shadow Removal
 
 - title: "Latent Radiance Fields with 3D-aware 2D Representations"
   authors: "Chaoyi Zhou*, Xi Liu*, Feng Luo, <b>Siyu Huang</b>"
