@@ -1,3 +1,4 @@
+// --- 这是净化过的代码，请复制这个版本 ---
 $(document).ready(function() {
     // 监听所有class为 .filter-btn 的按钮的点击事件
     $('.filter-btn').on('click', function(e) {
@@ -16,7 +17,7 @@ $(document).ready(function() {
         // --- 执行筛选逻辑 ---
         if (filterValue === 'all') {
             // 如果点击的是 "All"，则显示所有出版物
-            $('.pub-item').show(200); // 200毫秒的动画效果，可以去掉
+            $('.pub-item').show(200);
         } else {
             // 否则，先隐藏所有出版物
             $('.pub-item').hide(200);
