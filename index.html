@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,7 +70,7 @@
         margin: 0 12px 15px;
       }
 
-      /* --- 新增的筛选功能样式 --- */
+      /* --- 筛选功能样式 --- */
       .publication-filters {
         margin-bottom: 20px;
       }
@@ -104,7 +106,6 @@
         margin-right: 5px;
         font-family: monospace;
       }
-      /* --- 样式结束 --- */
     </style>
     <link href="assets/bootstrap-responsive.css" rel="stylesheet">
 </head>
@@ -153,25 +154,48 @@
             <div class="row">
                 <div class="span">
                     <h4>Education</h4>
-                    </div>
+                    <ul>					
+                        <li>
+                        <b>Ph.D.</b> at <a href="http://www.isee.zju.edu.cn/_s413/main.psp">College of Information Science and Electronic Engineering</a>, 
+                            <a href="http://www.zju.edu.cn/english/">Zhejiang University</a>
+                        <br><i>Sept 2014 - July 2019</i>       Hangzhou, China
+                        <br>
+                        Supervised by Prof. <a href="http://www.cs.binghamton.edu/~zhongfei/">Zhongfei (Mark) Zhang</a> and Prof. <a href="https://person.zju.edu.cn/en/xilics">Xi Li</a>.
+                        <br><br></li>	
+                        <li>
+                        <b>Visiting Scholar</b> at <a href="https://lti.cs.cmu.edu/">Language Technologies Institute</a>,
+                        <a href="https://www.cs.cmu.edu/">School of Computer Science</a>, 
+                        <a href="https://www.cmu.edu/">Carnegie Mellon University</a>					
+                        <br><i>Jan 2018 - Jan 2019</i>     &nbspPittsburgh, USA				
+                        <br>Supervised by Prof. <a href="http://www.cs.cmu.edu/~alex/">Alexander G. Hauptmann</a>.
+                        <br><br></li>
+                        <li>
+                        <b>Bachelor</b> at <a href="http://www.isee.zju.edu.cn/_s413/main.psp">College of Information Science and Electronic Engineering</a>, 
+                                <a href="http://www.zju.edu.cn/english/">Zhejiang University</a>
+                        <br><i>Sept 2010 - June 2014</i>       Hangzhou, China
+                        <br>
+                        Chu Kochen Honors College
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <a id="Work Experience"></a>
             <hr>
-            <div class="row">
+            <div class="row">	
                 <div class="span">
                     <h4>Work Experiences</h4>
                     </div>
-            </div>
-
+            </div>	
+                
             <a id="Teaching"></a>
             <hr>
-            <div class="row">
+            <div class="row">	
                 <div class="span">
                     <h4>Teaching</h4>
                     </div>
-            </div>
-
+            </div>	
+            
             <a id="Publications"></a>
             <hr>
             <div class="row">
@@ -198,28 +222,32 @@
                     <ol>
                       {% for pub in site.data.publications %}
                         {% assign pub_tags_slugified = "" | split: "," %}
-                        {% for tag in pub.tags %}
-                          {% assign pub_tags_slugified = pub_tags_slugified | push: (tag | slugify) %}
-                        {% endfor %}
+                        {% if pub.tags %}
+                          {% for tag in pub.tags %}
+                            {% assign pub_tags_slugified = pub_tags_slugified | push: (tag | slugify) %}
+                          {% endfor %}
+                        {% endif %}
                         <li class="pub-item {{ pub_tags_slugified | join: ' ' }}">
                           {{ pub.title }}
-                          {% if pub.pdf %} [<a href="{{ pub.pdf }}">pdf</a>] {% endif %}
-                          {% if pub.project %} [<a href="{{ pub.project }}">project page</a>] {% endif %}
-                          {% if pub.code %} [<a href="{{ pub.code }}">code</a>] {% endif %}
-                          {% if pub.slides %} [<a href="{{ pub.slides }}">slides</a>] {% endif %}
-                          {% if pub.supp %} [<a href="{{ pub.supp }}">supp</a>] {% endif %}
-                          {% if pub.poster %} [<a href="{{ pub.poster }}">poster</a>] {% endif %}
-                          {% if pub.demo %} [<a href="{{ pub.demo }}">demo</a>] {% endif %}
-                          {% if pub.video %} [<a href="{{ pub.video }}">video</a>] {% endif %}
+                          {% if pub.pdf %} [<a href="{{ pub.pdf }}">pdf</a>]{% endif %}
+                          {% if pub.project %} [<a href="{{ pub.project }}">project page</a>]{% endif %}
+                          {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
+                          {% if pub.slides %} [<a href="{{ pub.slides }}">slides</a>]{% endif %}
+                          {% if pub.supp %} [<a href="{{ pub.supp }}">supp</a>]{% endif %}
+                          {% if pub.poster %} [<a href="{{ pub.poster }}">poster</a>]{% endif %}
+                          {% if pub.demo %} [<a href="{{ pub.demo }}">demo</a>]{% endif %}
+                          {% if pub.video %} [<a href="{{ pub.video }}">video</a>]{% endif %}
                           <br>
                           {{ pub.authors }}
                           <br>
-                          {{ pub.venue }}
-                          {% if pub.award %} <b style="color:red">({{ pub.award }})</b>{% endif %}
+                          <em>{{ pub.venue }}</em>
+                          {% if pub.award %} <b style="color:red"> ({{ pub.award }})</b>{% endif %}
                           <br>
-                          {% for tag in pub.tags %}
-                            <span class="pub-tag">{{ tag }}</span>
-                          {% endfor %}
+                          {% if pub.tags %}
+                            {% for tag in pub.tags %}
+                              <span class="pub-tag">{{ tag }}</span>
+                            {% endfor %}
+                          {% endif %}
                           <br><br>
                         </li>
                       {% endfor %}
@@ -227,44 +255,45 @@
                     {% endraw %}
                 </div>
             </div>
+
             <a id="Awards"></a>
             <hr>
-            <div class="row">
+            <div class="row">	
                 <div class="span">
                     <h4>Awards</h4>
                     </div>
-            </div>
-
+            </div>	
+            
             <a id="Professional Services"></a>
             <hr>
-            <div class="row">
+            <div class="row">	
                 <div class="span">
                     <h4>Professional Services</h4>
                     </div>
             </div>
-
-            <hr>
-            <a href="https://www.easycounter.com/">
-                <img src="https://www.easycounter.com/counter.php?siyuhuang" border="0" alt="Web Site Hit Counter">
-            </a> Since Nov, 2018
-        </div>
-    </div> <div class="foot-fixed-bottom">
+    
+        <hr>	
+        <a href="https://www.easycounter.com/">
+            <img src="https://www.easycounter.com/counter.php?siyuhuang" border="0" alt="Web Site Hit Counter">
+        </a> Since Nov, 2018
+            
+    </div></div> <div class="foot-fixed-bottom">
         <p align="right"><a href="http://twitter.github.com/bootstrap/"><u><font color="#000000">Proudly powered by Bootstrap</font></u></a></p>
     </div>
 
-    <script src="assets/jquery.js"></script>
-    <script src="assets/bootstrap-transition.js"></script>
-    <script src="assets/bootstrap-alert.js"></script>
-    <script src="assets/bootstrap-modal.js"></script>
-    <script src="assets/bootstrap-dropdown.js"></script>
-    <script src="assets/bootstrap-scrollspy.js"></script>
-    <script src="assets/bootstrap-tab.js"></script>
-    <script src="assets/bootstrap-tooltip.js"></script>
-    <script src="assets/bootstrap-popover.js"></script>
-    <script src="assets/bootstrap-button.js"></script>
-    <script src="assets/bootstrap-collapse.js"></script>
-    <script src="assets/bootstrap-carousel.js"></script>
-    <script src="assets/bootstrap-typeahead.js"></script>
+    <script src="assets/jquery.js.download"></script>
+    <script src="assets/bootstrap-transition.js.download"></script>
+    <script src="assets/bootstrap-alert.js.download"></script>
+    <script src="assets/bootstrap-modal.js.download"></script>
+    <script src="assets/bootstrap-dropdown.js.download"></script>
+    <script src="assets/bootstrap-scrollspy.js.download"></script>
+    <script src="assets/bootstrap-tab.js.download"></script>
+    <script src="assets/bootstrap-tooltip.js.download"></script>
+    <script src="assets/bootstrap-popover.js.download"></script>
+    <script src="assets/bootstrap-button.js.download"></script>
+    <script src="assets/bootstrap-collapse.js.download"></script>
+    <script src="assets/bootstrap-carousel.js.download"></script>
+    <script src="assets/bootstrap-typeahead.js.download"></script>
     
     <script src="assets/js/filter.js"></script>
 
