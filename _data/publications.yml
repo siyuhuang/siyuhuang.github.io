@@ -303,7 +303,7 @@
   tags:
     - Style Transfer
     - Image Synthesis
-    - Normalizing Flows
+    - Flow-based Model
 
 - title: "Dual Low-Rank Multimodal Fusion"
   authors: "Tao Jin*, <b>Siyu Huang*</b>, Yingming Li, Zhongfei Zhang"
