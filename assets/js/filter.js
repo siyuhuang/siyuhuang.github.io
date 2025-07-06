@@ -1,27 +1,45 @@
 $(document).ready(function() {
-    // 监听所有class为 .filter-btn 的按钮的点击事件
+    // --- This block handles clicks on the main filter buttons ---
     $('.filter-btn').on('click', function(e) {
-        // 阻止按钮的默认跳转行为
+        // Prevent the button's default link behavior
         e.preventDefault();
 
-        // 获取被点击按钮的 data-filter 属性值
+        // Get the data-filter attribute value of the clicked button
         var filterValue = $(this).attr('data-filter');
 
-        // --- 更新按钮的激活状态 ---
-        // 移除所有按钮的 'active' class
+        // --- Update the active state of the buttons ---
+        // Remove the 'active' class from all buttons
         $('.filter-btn').removeClass('active');
-        // 给被点击的按钮添加 'active' class
+        // Add the 'active' class to the clicked button
         $(this).addClass('active');
 
-        // --- 执行筛选逻辑 ---
+        // --- Perform the filtering logic ---
         if (filterValue === 'all') {
-            // 如果点击的是 "All"，则立即显示所有出版物
+            // If "All" is clicked, show all publication items instantly
             $('.pub-item').show();
         } else {
-            // 否则，立即隐藏所有出版物
+            // Otherwise, hide all items instantly
             $('.pub-item').hide();
-            // 然后立即显示那些class中包含 filterValue 的出版物
+            // Then, instantly show only the items that have the matching class
             $('.pub-item.' + filterValue).show();
+        }
+    });
+
+    // --- This block handles clicks on the tags under each publication ---
+    $('.pub-tag').on('click', function() {
+        // Get the text content of the clicked tag (e.g., "Style Transfer")
+        var tagText = $(this).text();
+
+        // Convert the text into a "slug" format that matches the data-filter values
+        // (e.g., "Style Transfer" -> "style-transfer")
+        var filterValue = tagText.toLowerCase().replace(/\s+/g, '-');
+
+        // Find the main filter button at the top that corresponds to this tag
+        var targetButton = $('.filter-btn[data-filter="' + filterValue + '"]');
+
+        // If a matching button exists, programmatically click it
+        if (targetButton.length > 0) {
+            targetButton.click();
         }
     });
 });
