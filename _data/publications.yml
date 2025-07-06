@@ -175,7 +175,6 @@
   code: "https://github.com/GuoLanqing/ShadowDiffusion"
   tags:
     - Image Restoration
-    - Shadow Removal
     - Diffusion Model
 
 - title: "Making Your First Choice: To Address Cold Start Problem in Vision Active Learning"
