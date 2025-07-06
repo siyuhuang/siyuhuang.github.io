@@ -1,133 +1,124 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+# _data/publications.yml
 
-\f0\fs24 \cf0 # _data/publications.yml\
-\
-- title: "B\'e9zier Splatting for Fast and Differentiable Vector Graphics Rendering"\
-  authors: "Xi Liu, Chaoyi Zhou, Nanxuan Zhao, Siyu Huang"\
-  venue: "Preprint, 2025"\
-  pdf: "https://arxiv.org/abs/2503.16424"\
-  project: "https://xiliu8006.github.io/Bezier_splatting_project/"\
-  tags:\
-    - Rendering\
-    - Graphics\
-\
-- title: "A Multimodal Visual\'96Language Foundation Model for Computational Ophthalmology"\
-  authors: "Danli Shi, Weiyi Zhang, Jiancheng Yang, Siyu Huang, Xiaolan Chen, Mayinuer Yusufu, Kai Jin, Shan Lin, Shunming Liu, Qing Zhang, Mingguang He"\
-  venue: "npj Digital Medicine, 2025"\
-  pdf: "https://arxiv.org/abs/2409.06644"\
-  tags:\
-    - Medical AI\
-    - Multimodal\
-    - Foundation Model\
-\
-- title: "AutoAL: Automated Active Learning with Differentiable Query Strategy Search"\
-  authors: "Yifeng Wang, Xueying Zhan, Siyu Huang"\
-  venue: "International Conference on Machine Learning (ICML), 2025"\
-  pdf: "https://arxiv.org/abs/2410.13853"\
-  tags:\
-    - Active Learning\
-    - AutoML\
-\
-- title: "Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement"\
-  authors: "Yunhan Ren, Feng Luo, Siyu Huang"\
-  venue: "ACM International Conference on Multimedia Retrieval (ICMR), 2025"\
-  tags:\
-    - Few-Shot Learning\
-    - Category Discovery\
-\
-- title: "LoRD: A Low-Rank Defense Method for Adversarial Attack on Diffusion Models"\
-  authors: "Jiaxuan Zhu, Siyu Huang"\
-  venue: "IEEE International Conference on Multimedia and Expo (ICME), 2025"\
-  tags:\
-    - Adversarial Attack\
-    - Diffusion Models\
-    - Security\
-\
-- title: "Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions"\
-  authors: "Yifei Dong, Fengyi Wu, Sanjian Zhang, Guangyu Chen, Yuzhi Hu, Masumi Yano, Jingdong Sun, Siyu Huang, Feng Liu, Qi Dai, Zhi-Qi Cheng"\
-  venue: "CVPR 4th Anti-UAV Workshop, 2025"\
-  pdf: "https://arxiv.org/abs/2504.11967"\
-  award: "Best Paper"\
-  tags:\
-    - Survey\
-    - UAV\
-    - Security\
-\
-- title: "SoftShadow: Leveraging Soft Masks for Penumbra-Aware Shadow Removal"\
-  authors: "Xinrui Wang, Lanqing Guo, Xiyu Wang, Siyu Huang, Bihan Wen"\
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025"\
-  pdf: "https://arxiv.org/abs/2409.07041"\
-  code: "https://github.com/Xinrui014/SoftShadow"\
-  tags:\
-    - Image Restoration\
-    - Shadow Removal\
-\
-- title: "Latent Radiance Fields with 3D-aware 2D Representations"\
-  authors: "Chaoyi Zhou*, Xi Liu*, Feng Luo, Siyu Huang"\
-  venue: "International Conference on Learning Representations (ICLR), 2025"\
-  pdf: "https://arxiv.org/abs/2502.09613"\
-  code: "https://github.com/ChaoyiZh/latent-radiance-field"\
-  project: "https://latent-radiance-field.github.io/LRF/"\
-  tags:\
-    - 3D Vision\
-    - NeRF\
-    - Generative Model\
-\
-- title: "3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors"\
-  authors: "Xi Liu*, Chaoyi Zhou*, Siyu Huang"\
-  venue: "Advances in Neural Information Processing Systems (NeurIPS), 2024"\
-  pdf: "https://arxiv.org/abs/2410.16266"\
-  code: "https://github.com/xiliu8006/3DGS-Enhancer"\
-  project: "https://xiliu8006.github.io/3DGS-Enhancer-project/"\
-  award: "Spotlight"\
-  tags:\
-    - 3D Vision\
-    - Gaussian Splatting\
-    - Generative Model\
-\
-- title: "Making Your First Choice: To Address Cold Start Problem in Vision Active Learning"\
-  authors: "Liangyu Chen, Yutong Bai, Siyu Huang, Yongyi Lu, Bihan Wen, Alan Yuille, Zongwei Zhou"\
-  venue: "Medical Imaging with Deep Learning (MIDL), 2023"\
-  pdf: "https://arxiv.org/abs/2210.02442"\
-  code: "https://github.com/cliangyu/CSVAL"\
-  tags:\
-    - Active Learning\
-    - Medical AI\
-\
-- title: "QuantArt: Quantizing Image Style Transfer Towards High Visual Fidelity"\
-  authors: "Siyu Huang*, Jie An*, Donglai Wei, Jiebo Luo, Hanspeter Pfister"\
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"\
-  pdf: "https://arxiv.org/abs/2212.10431"\
-  code: "https://github.com/siyuhuang/QuantArt"\
-  slides: "https://siyuhuang.github.io/papers/CVPR23-QuantArt-slides.pdf"\
-  tags:\
-    - Style Transfer\
-    - Image Synthesis\
-\
-- title: "ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal"\
-  authors: "Lanqing Guo, Chong Wang, Wenhan Yang, Siyu Huang, Yufei Wang, Hanspeter Pfister, Bihan Wen"\
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"\
-  pdf: "https://arxiv.org/abs/2212.04711"\
-  code: "https://github.com/GuoLanqing/ShadowDiffusion"\
-  tags:\
-    - Image Restoration\
-    - Shadow Removal\
-    - Diffusion Models\
-\
-- title: "ArtFlow: Unbiased Image Style Transfer via Reversible Neural Flows"\
-  authors: "Jie An*, Siyu Huang*, Yibing Song, Dejing Dou, Wei Liu, Jiebo Luo"\
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021"\
-  pdf: "https://siyuhuang.github.io/papers/CVPR-2021-ArtFlow%20Unbiased%20Image%20Style%20Transfer%20via%20Reversible%20Neural%20Flows.pdf"\
-  supp: "https://siyuhuang.github.io/papers/CVPR-2021-ArtFlow%20Unbiased%20Image%20Style%20Transfer%20via%20Reversible%20Neural%20Flows-supp.pdf"\
-  code: "https://github.com/pkuanjie/ArtFlow"\
-  tags:\
-    - Style Transfer\
-    - Image Synthesis\
-    - Normalizing Flows\
-\
-# ... }
+- title: "Bézier Splatting for Fast and Differentiable Vector Graphics Rendering"
+  authors: "Xi Liu, Chaoyi Zhou, Nanxuan Zhao, Siyu Huang"
+  venue: "Preprint, 2025"
+  pdf: "https://arxiv.org/abs/2503.16424"
+  project: "https://xiliu8006.github.io/Bezier_splatting_project/"
+  tags:
+    - Rendering
+    - Graphics
+
+- title: "A Multimodal Visual–Language Foundation Model for Computational Ophthalmology"
+  authors: "Danli Shi, Weiyi Zhang, Jiancheng Yang, Siyu Huang, Xiaolan Chen, Mayinuer Yusufu, Kai Jin, Shan Lin, Shunming Liu, Qing Zhang, Mingguang He"
+  venue: "npj Digital Medicine, 2025"
+  pdf: "https://arxiv.org/abs/2409.06644"
+  tags:
+    - Medical AI
+    - Multimodal
+    - Foundation Model
+
+- title: "AutoAL: Automated Active Learning with Differentiable Query Strategy Search"
+  authors: "Yifeng Wang, Xueying Zhan, Siyu Huang"
+  venue: "International Conference on Machine Learning (ICML), 2025"
+  pdf: "https://arxiv.org/abs/2410.13853"
+  tags:
+    - Active Learning
+    - AutoML
+
+- title: "Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement"
+  authors: "Yunhan Ren, Feng Luo, Siyu Huang"
+  venue: "ACM International Conference on Multimedia Retrieval (ICMR), 2025"
+  tags:
+    - Few-Shot Learning
+    - Category Discovery
+
+- title: "LoRD: A Low-Rank Defense Method for Adversarial Attack on Diffusion Models"
+  authors: "Jiaxuan Zhu, Siyu Huang"
+  venue: "IEEE International Conference on Multimedia and Expo (ICME), 2025"
+  tags:
+    - Adversarial Attack
+    - Diffusion Models
+    - Security
+
+- title: "Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions"
+  authors: "Yifei Dong, Fengyi Wu, Sanjian Zhang, Guangyu Chen, Yuzhi Hu, Masumi Yano, Jingdong Sun, Siyu Huang, Feng Liu, Qi Dai, Zhi-Qi Cheng"
+  venue: "CVPR 4th Anti-UAV Workshop, 2025"
+  pdf: "https://arxiv.org/abs/2504.11967"
+  award: "Best Paper"
+  tags:
+    - Survey
+    - UAV
+    - Security
+
+- title: "SoftShadow: Leveraging Soft Masks for Penumbra-Aware Shadow Removal"
+  authors: "Xinrui Wang, Lanqing Guo, Xiyu Wang, Siyu Huang, Bihan Wen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
+  pdf: "https://arxiv.org/abs/2409.07041"
+  code: "https://github.com/Xinrui014/SoftShadow"
+  tags:
+    - Image Restoration
+    - Shadow Removal
+
+- title: "Latent Radiance Fields with 3D-aware 2D Representations"
+  authors: "Chaoyi Zhou*, Xi Liu*, Feng Luo, Siyu Huang"
+  venue: "International Conference on Learning Representations (ICLR), 2025"
+  pdf: "https://arxiv.org/abs/2502.09613"
+  code: "https://github.com/ChaoyiZh/latent-radiance-field"
+  project: "https://latent-radiance-field.github.io/LRF/"
+  tags:
+    - 3D Vision
+    - NeRF
+    - Generative Model
+
+- title: "3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors"
+  authors: "Xi Liu*, Chaoyi Zhou*, Siyu Huang"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS), 2024"
+  pdf: "https://arxiv.org/abs/2410.16266"
+  code: "https://github.com/xiliu8006/3DGS-Enhancer"
+  project: "https://xiliu8006.github.io/3DGS-Enhancer-project/"
+  award: "Spotlight"
+  tags:
+    - 3D Vision
+    - Gaussian Splatting
+    - Generative Model
+
+- title: "Making Your First Choice: To Address Cold Start Problem in Vision Active Learning"
+  authors: "Liangyu Chen, Yutong Bai, Siyu Huang, Yongyi Lu, Bihan Wen, Alan Yuille, Zongwei Zhou"
+  venue: "Medical Imaging with Deep Learning (MIDL), 2023"
+  pdf: "https://arxiv.org/abs/2210.02442"
+  code: "https://github.com/cliangyu/CSVAL"
+  tags:
+    - Active Learning
+    - Medical AI
+
+- title: "QuantArt: Quantizing Image Style Transfer Towards High Visual Fidelity"
+  authors: "Siyu Huang*, Jie An*, Donglai Wei, Jiebo Luo, Hanspeter Pfister"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
+  pdf: "https://arxiv.org/abs/2212.10431"
+  code: "https://github.com/siyuhuang/QuantArt"
+  slides: "https://siyuhuang.github.io/papers/CVPR23-QuantArt-slides.pdf"
+  tags:
+    - Style Transfer
+    - Image Synthesis
+
+- title: "ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal"
+  authors: "Lanqing Guo, Chong Wang, Wenhan Yang, Siyu Huang, Yufei Wang, Hanspeter Pfister, Bihan Wen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
+  pdf: "https://arxiv.org/abs/2212.04711"
+  code: "https://github.com/GuoLanqing/ShadowDiffusion"
+  tags:
+    - Image Restoration
+    - Shadow Removal
+    - Diffusion Models
+
+- title: "ArtFlow: Unbiased Image Style Transfer via Reversible Neural Flows"
+  authors: "Jie An*, Siyu Huang*, Yibing Song, Dejing Dou, Wei Liu, Jiebo Luo"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021"
+  pdf: "https://siyuhuang.github.io/papers/CVPR-2021-ArtFlow%20Unbiased%20Image%20Style%20Transfer%20via%20Reversible%20Neural%20Flows.pdf"
+  supp: "https://siyuhuang.github.io/papers/CVPR-2021-ArtFlow%20Unbiased%20Image%20Style%20Transfer%20via%20Reversible%20Neural%20Flows-supp.pdf"
+  code: "https://github.com/pkuanjie/ArtFlow"
+  tags:
+    - Style Transfer
+    - Image Synthesis
+    - Normalizing Flows
