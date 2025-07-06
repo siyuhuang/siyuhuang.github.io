@@ -122,6 +122,7 @@
   code: "https://github.com/kangxian97/S3-TTA"
   tags:
     - Biomedical
+    - Image Synthesis
 
 - title: "Towards Robust Image Denoising via Flow-based Joint Image and Noise Model"
   authors: "Lanqing Guo, <b>Siyu Huang</b>, Haosen Liu, and Bihan Wen"
