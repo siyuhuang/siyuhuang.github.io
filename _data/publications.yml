@@ -6,9 +6,7 @@
   pdf: "https://arxiv.org/abs/2503.16424"
   project: "https://xiliu8006.github.io/Bezier_splatting_project/"
   tags:
-    - Rendering
     - Graphics
-    - Gaussian Splatting
 
 - title: "A Multimodal Visual–Language Foundation Model for Computational Ophthalmology"
   authors: "Danli Shi, Weiyi Zhang, Jiancheng Yang, <b>Siyu Huang</b>, Xiaolan Chen, Mayinuer Yusufu, Kai Jin, Shan Lin, Shunming Liu, Qing Zhang, Mingguang He"
@@ -32,14 +30,12 @@
   venue: "ACM International Conference on Multimedia Retrieval (ICMR), 2025"
   tags:
     - Few-Shot Learning
-    - Category Discovery
 
 - title: "LoRD: A Low-Rank Defense Method for Adversarial Attack on Diffusion Models"
   authors: "Jiaxuan Zhu, <b>Siyu Huang</b>"
   venue: "IEEE International Conference on Multimedia and Expo (ICME), 2025"
   tags:
-    - Adversarial Attack
-    - Diffusion Models
+    - Diffusion Model
     - Security
 
 - title: "Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions"
@@ -49,7 +45,6 @@
   award: "Best Paper"
   tags:
     - Survey
-    - UAV
     - Security
 
 - title: "SoftShadow: Leveraging Soft Masks for Penumbra-Aware Shadow Removal"
@@ -68,9 +63,7 @@
   code: "https://github.com/ChaoyiZh/latent-radiance-field"
   project: "https://latent-radiance-field.github.io/LRF/"
   tags:
-    - 3D Vision
-    - NeRF
-    - Generative Model
+    - 3D
 
 - title: "3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors"
   authors: "Xi Liu*, Chaoyi Zhou*, <b>Siyu Huang</b>"
@@ -80,9 +73,9 @@
   project: "https://xiliu8006.github.io/3DGS-Enhancer-project/"
   award: "Spotlight"
   tags:
-    - 3D Vision
-    - Gaussian Splatting
-    - Generative Model
+    - 3D
+    - Diffusion Model
+    - Image Synthesis
 
 - title: "Make a Cheap Scaling: A Self-Cascade Diffusion Model for Higher-Resolution Adaptation"
   authors: "Lanqing Guo, Yingqing He, Haoxin Chen, Menghan Xia, Xiaodong Cun, Yufei Wang, <b>Siyu Huang</b>, Yong Zhang, Xintao Wang, Qifeng Chen, Ying Shan, Bihan Wen"
@@ -91,8 +84,7 @@
   code: "https://github.com/GuoLanqing/Self-Cascade"
   project: "https://guolanqing.github.io/Self-Cascade/"
   tags:
-    - Diffusion Models
-    - Generative Model
+    - Diffusion
     - Image Synthesis
 
 - title: "Fundus2Video: Cross-Modal Angiography Video Generation from Static Fundus Photography with Clinical Knowledge Guidance"
@@ -102,7 +94,7 @@
   tags:
     - Medical AI
     - Multimodal
-    - Generative Model
+    - Image Synthesis
 
 - title: "MTPret: Improving X-ray Image Analytics with Multi-Task Pre-training"
   authors: "Weibin Liao, Qingzhong Wang, Xuhong Li, Yi Liu, Zeyu Chen, <b>Siyu Huang</b>, Dejing Dou, Yanwu Xu, Haoyi Xiong"
@@ -118,8 +110,9 @@
   pdf: "https://siyuhuang.github.io/papers/ETRA-2024-Learning Gaze-aware Compositional GAN from Limited Annotations.pdf"
   code: "https://github.com/naranjuelo/GC-GAN"
   tags:
-    - Generative Model
-    - Gaze
+    - GAN
+    - Face
+    - Image Synthesis
 
 - title: "S3-TTA: Scale-Style Selection for Test-Time Augmentation in Biomedical Image Segmentation"
   authors: "Kangxian Xie, <b>Siyu Huang</b>, Sebastian Andres Cajas Ordonez, Hanspeter Pfister, Donglai Wei"
@@ -127,8 +120,7 @@
   pdf: "https://arxiv.org/abs/2310.16783"
   code: "https://github.com/kangxian97/S3-TTA"
   tags:
-    - Medical AI
-    - Image Segmentation
+    - Biomedical AI
 
 - title: "Towards Robust Image Denoising via Flow-based Joint Image and Noise Model"
   authors: "Lanqing Guo, <b>Siyu Huang</b>, Haosen Liu, and Bihan Wen"
@@ -136,16 +128,15 @@
   pdf: "https://siyuhuang.github.io/papers/TCSVT-2023-Towards_Robust_Image_Denoising_via_Flow-based_Joint_Image_and_Noise_Model.pdf"
   tags:
     - Image Restoration
-    - Normalizing Flows
+    - Flow-based Model
 
 - title: "ContRE: A Complementary Measure for Robustness Evaluation of Deep Networks via Contrastive Examples"
   authors: "Xuhong Li, Xuanyu Wu, Linghe Kong, Xiao Zhang, <b>Siyu Huang</b>, Dejing Dou, and Haoyi Xiong"
   venue: "IEEE International Conference on Data Mining (ICDM), 2023"
   pdf: "https://siyuhuang.github.io/papers/ICDM-2023-ContRE_A_Complementary_Measure_for_Robustness_Evaluation_of_Deep_Networks_via_Contrastive_Examples.pdf"
   tags:
-    - Security
-    - Adversarial Attack
-
+    - Explainable AI (XAI)
+    
 - title: "Domain-Scalable Unpaired Image Translation via Latent Space Anchoring"
   authors: "<b>Siyu Huang*</b>, Jie An*, Donglai Wei, Zudi Lin, Jiebo Luo, Hanspeter Pfister"
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023"
@@ -153,7 +144,6 @@
   code: "https://github.com/siyuhuang/Latent-Space-Anchoring"
   tags:
     - Image Synthesis
-    - Generative Model
 
 - title: "3D Domain Adaptive Instance Segmentation via Cyclic Segmentation GANs"
   authors: "Leander Lauenburg, Zudi Lin, Ruihan Zhang, Marcia dos Santos, <b>Siyu Huang</b>, Ignacio Arganda-Carreras, Edward S. Boyden, Hanspeter Pfister, Donglai Wei"
@@ -162,10 +152,10 @@
   project: "https://connectomics-bazaar.github.io/proj/CySGAN/index.html"
   code: "https://github.com/zudi-lin/pytorch_connectomics/tree/master/projects/CySGAN"
   tags:
-    - 3D Vision
-    - Medical AI
-    - Image Segmentation
-    - Generative Model
+    - 3D
+    - Biomedical AI
+    - GAN
+    - Image Synthesis
 
 - title: "QuantArt: Quantizing Image Style Transfer Towards High Visual Fidelity"
   authors: "<b>Siyu Huang*</b>, Jie An*, Donglai Wei, Jiebo Luo, Hanspeter Pfister"
@@ -185,7 +175,7 @@
   tags:
     - Image Restoration
     - Shadow Removal
-    - Diffusion Models
+    - Diffusion Model
 
 - title: "Making Your First Choice: To Address Cold Start Problem in Vision Active Learning"
   authors: "Liangyu Chen, Yutong Bai, <b>Siyu Huang</b>, Yongyi Lu, Bihan Wen, Alan Yuille, Zongwei Zhou"
@@ -202,7 +192,7 @@
   pdf: "https://siyuhuang.github.io/papers/MLJ-2023-Cross%E2%80%91model%20consensus%20of%20explanations%20and%20beyond%20for%20image%20classifcation%20models%20an%20empirical%20study.pdf"
   code: "https://github.com/PaddlePaddle/InterpretDL/blob/master/interpretdl/interpreter/consensus.py"
   tags:
-    - Explainable AI
+    - Explainable AI (XAI)
 
 - title: "ShadowFormer: Global Context Helps Shadow Removal"
   authors: "Lanqing Guo, <b>Siyu Huang</b>, Ding Liu, Hao Cheng, Bihan Wen"
@@ -211,7 +201,6 @@
   code: "https://github.com/GuoLanqing/ShadowFormer"
   tags:
     - Image Restoration
-    - Shadow Removal
 
 - title: "Temporal Output Discrepancy for Loss Estimation-based Active Learning"
   authors: "<b>Siyu Huang</b>, Tianyang Wang, Haoyi Xiong, Bihan Wen, Jun Huan, Dejing Dou"
@@ -235,8 +224,9 @@
   pdf: "https://siyuhuang.github.io/papers/TIFS-2022-A_Unified_Framework_for_Bidirectional_Prototype_Learning_from_Contaminated_Faces_across_Heterogeneous_Domains.pdf"
   code: "https://github.com/PangMeng92/BHPL_Codes"
   tags:
+    - Image Synthesis
     - Security
-    - Face Recognition
+    - Face
 
 - title: "Parameter-Free Style Projection for Arbitrary Style Transfer"
   authors: "<b>Siyu Huang</b>, Haoyi Xiong, Tianyang Wang, Bihan Wen, Qingzhong Wang, Zeyu Chen, Jun Huan, Dejing Dou"
@@ -245,6 +235,7 @@
   code: "https://github.com/PaddlePaddle/PaddleHub/tree/dbca09ae78b5387ebe3b49f37ce88de45d41d26a/hub_module/modules/image/style_transfer/stylepro_artistic"
   tags:
     - Style Transfer
+    - Image Synthesis
 
 - title: "BM-NAS: Bilevel Multimodal Neural Architecture Search"
   authors: "Yihang Yin, <b>Siyu Huang</b>, Xiang Zhang"
@@ -265,7 +256,7 @@
   code: "https://github.com/Somedaywilldo/AutoGCL"
   tags:
     - AutoML
-    - Graph Learning
+    - Graph
 
 - title: "Boosting Active Learning via Improving Test Performance"
   authors: "Tianyang Wang, Xingjian Li, Pengkun Yang, Guosheng Hu, Xiangrui Zeng, <b>Siyu Huang</b>, Cheng-Zhong Xu, Min Xu"
@@ -321,13 +312,15 @@
   pdf: "https://siyuhuang.github.io/papers/EMNLP-Findings-2020-Dual%20Low-Rank%20Multimodal%20Fusion.pdf"
   tags:
     - Multimodal
+    - Image/Video Understanding
 
 - title: "Neighbours Matter: Image Captioning with Similar Images"
   authors: "Qingzhong Wang, Jiuniu Wang, Antoni Chan, <b>Siyu Huang</b>, Haoyi Xiong, Xingjian Li, Dejing Dou"
   venue: "British Machine Vision Conference (BMVC), 2020"
   pdf: "https://siyuhuang.github.io/papers/BMVC-2020-Neighbours%20Matter-%20Image%20Captioning%20with%20Similar%20Images.pdf"
   tags:
-    - Image Captioning
+    - Multimodal
+    - Image/Video Understanding
 
 - title: "Generating Person Images with Appearance-aware Pose Stylizer"
   authors: "<b>Siyu Huang</b>, Haoyi Xiong, Zhi-Qi Cheng, Qingzhong Wang, Xingran Zhou, Bihan Wen, Jun Huan, Dejing Dou"
@@ -336,14 +329,15 @@
   code: "https://github.com/siyuhuang/PoseStylizer"
   tags:
     - Image Synthesis
-    - Generative Model
+    - GAN
 
 - title: "SBAT: Video Captioning with Sparse Boundary-Aware Transformer"
   authors: "Tao Jin, <b>Siyu Huang</b>, Ming Chen, Yingming Li, Zhongfei Zhang"
   venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2020"
   pdf: "https://siyuhuang.github.io/papers/IJCAI-2020-SBAT%20Video%20Captioning%20with%20Sparse%20Boundary-Aware%20Transformer.pdf"
   tags:
-    - Video Captioning
+    - Multimodal
+    - Image/Video Understanding
 
 - title: "Stacked Pooling for Boosting Scale Invariance of Crowd Counting"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhi-Qi Cheng, Zhongfei Zhang, Alexander Hauptmann"
@@ -351,15 +345,15 @@
   pdf: "https://siyuhuang.github.io/papers/ICASSP-2020-STACKED%20POOLING%20FOR%20BOOSTING%20SCALE%20INVARIANCE%20OF%20CROWD%20COUNTING.pdf"
   code: "https://github.com/siyuhuang/crowdcount-stackpool"
   tags:
-    - Crowd Counting
+    - Image/Video Understanding
 
 - title: "Low-Rank HOCA: Efficient High-Order Cross-Modal Attention for Video Captioning"
   authors: "Tao Jin, <b>Siyu Huang</b>, Yingming Li, Zhongfei Zhang"
   venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2019"
   pdf: "https://siyuhuang.github.io/papers/EMNLP-2019-Low-Rank%20HOCA.pdf"
   tags:
-    - Video Captioning
     - Multimodal
+    - Image/Video Understanding
 
 - title: "Text Guided Person Image Synthesis"
   authors: "Xingran Zhou, <b>Siyu Huang</b>, Bin Li, Yingming Li, Jiachen Li, Zhongfei Zhang."
@@ -368,7 +362,7 @@
   supp: "https://siyuhuang.github.io/papers/CVPR-2019-Text%20Guided%20Person%20Image%20Synthesis-supp.pdf"
   tags:
     - Image Synthesis
-    - Generative Model
+    - GAN
 
 - title: "User-Ranking Video Summarization with Multi-Stage Spatio-Temporal Representation"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhongfei Zhang, Fei Wu, Junwei Han."
@@ -376,7 +370,7 @@
   pdf: "https://siyuhuang.github.io/papers/TIP-2019-User-Ranking%20Video%20Summarization%20with%20Multi-Stage%20Spatio-Temporal%20Representation.pdf"
   demo: "https://drive.google.com/open?id=1yVRRM6DFQRlK0UFKADjwLxbRbCdSQyDF"
   tags:
-    - Video Summarization
+    - Image/Video Understanding
 
 - title: "Perceiving Physical Equation by Observing Visual Scenarios"
   authors: "<b>Siyu Huang*</b>, Zhi-Qi Cheng*, Xi Li, Xiao Wu, Zhongfei Zhang, Alexander Hauptmann."
@@ -384,14 +378,15 @@
   pdf: "https://siyuhuang.github.io/papers/NIPSW-2018-Perceiving%20Physical%20Equation%20by%20Observing%20Visual%20Scenarios.pdf"
   tags:
     - Physics
-    - Video Understanding
+    - Image/Video Understanding
 
 - title: "TVT: Two-View Transformer Network for Video Captioning"
   authors: "Ming Chen, Yingming Li, Zhongfei Zhang, <b>Siyu Huang</b>."
   venue: "Asian Conference on Machine Learning (ACML), 2018"
   pdf: "https://siyuhuang.github.io/papers/ACML-2018-Two-View%20Transformer%20Network%20for%20Video%20Captioning.pdf"
   tags:
-    - Video Captioning
+    - Multimodal
+    - Image/Video Understanding
 
 - title: "GNAS: A Greedy Neural Architecture Search Method for Multi-Attribute Learning"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhi-Qi Cheng, Zhongfei Zhang, Alexander Hauptmann."
@@ -409,7 +404,6 @@
   pdf: "https://siyuhuang.github.io/papers/ACM%20MM-2018-Learning%20to%20Transfer%20Generalizable%20Attribute%20Learning%20with%20Multitask%20Neural%20Model%20Search.pdf"
   tags:
     - AutoML
-    - Transfer Learning
 
 - title: "Body Structure Aware Deep Crowd Counting"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhongfei Zhang, Fei Wu, Shenghua Gao, Rongrong Ji, Junwei Han."
@@ -417,12 +411,11 @@
   pdf: "https://siyuhuang.github.io/papers/TIP-2018-Body%20Structure%20Aware%20Deep%20Crowd%20Counting.pdf"
   demo: "https://drive.google.com/open?id=1X86WV6pnGD7pYYSI5Sxwj2ooI6jrm-z2"
   tags:
-    - Crowd Counting
+    - Image/Video Understanding
 
 - title: "Deep Learning Driven Visual Path Prediction From a Single Image"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhongfei Zhang, Zhouzhou He, Fei Wu, Wei Liu, Jinhui Tang, Yueting Zhuang."
   venue: "IEEE Transactions on Image Processing (TIP), 2016"
   pdf: "https://siyuhuang.github.io/papers/TIP-2016-Deep%20Learning%20Driven%20Visual%20Path%20Prediction%20from%20a%20Single%20Image%20.pdf"
   tags:
-    - Path Prediction
-    - Scene Understanding
+    - Image/Video Understanding
