@@ -196,64 +196,58 @@
                     </div>
             </div>	
             
-            <a id="Publications"></a>
-            <hr>
-            <div class="row">
-                <div class="span">
-                    <h4>Publications</h4>
+            <h4>Publications</h4>
 
-                    {% assign all_tags = "" | split: "," %}
-                    {% for pub in site.data.publications %}
-                      {% for tag in pub.tags %}
-                        {% assign all_tags = all_tags | push: tag %}
-                      {% endfor %}
-                    {% endfor %}
-                    {% assign all_tags = all_tags | uniq | sort %}
-
-                    <div class="publication-filters">
-                      <a href="#" class="filter-btn active" data-filter="all">All</a>
-                      {% for tag in all_tags %}
-                        {% assign tag_slug = tag | slugify %}
-                        <a href="#" class="filter-btn" data-filter="{{ tag_slug }}">{{ tag }}</a>
-                      {% endfor %}
-                    </div>
-
-                    <ol>
-                      {% for pub in site.data.publications %}
-                        {% assign pub_tags_slugified = "" | split: "," %}
-                        {% if pub.tags %}
-                          {% for tag in pub.tags %}
-                            {% assign pub_tags_slugified = pub_tags_slugified | push: (tag | slugify) %}
-                          {% endfor %}
-                        {% endif %}
-                        <li class="pub-item {{ pub_tags_slugified | join: ' ' }}">
-                          {{ pub.title }}
-                          {% if pub.pdf %} [<a href="{{ pub.pdf }}">pdf</a>]{% endif %}
-                          {% if pub.project %} [<a href="{{ pub.project }}">project page</a>]{% endif %}
-                          {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
-                          {% if pub.slides %} [<a href="{{ pub.slides }}">slides</a>]{% endif %}
-                          {% if pub.supp %} [<a href="{{ pub.supp }}">supp</a>]{% endif %}
-                          {% if pub.poster %} [<a href="{{ pub.poster }}">poster</a>]{% endif %}
-                          {% if pub.demo %} [<a href="{{ pub.demo }}">demo</a>]{% endif %}
-                          {% if pub.video %} [<a href="{{ pub.video }}">video</a>]{% endif %}
-                          <br>
-                          {{ pub.authors }}
-                          <br>
-                          <em>{{ pub.venue }}</em>
-                          {% if pub.award %} <b style="color:red"> ({{ pub.award }})</b>{% endif %}
-                          <br>
-                          {% if pub.tags %}
-                            {% for tag in pub.tags %}
-                              <span class="pub-tag">{{ tag }}</span>
-                            {% endfor %}
-                          {% endif %}
-                          <br><br>
-                        </li>
-                      {% endfor %}
-                    </ol>
-
-                </div>
+            {% assign all_tags = "" | split: "," %}
+            {% for pub in site.data.publications %}
+              {% for tag in pub.tags %}
+                {% assign all_tags = all_tags | push: tag %}
+              {% endfor %}
+            {% endfor %}
+            {% assign all_tags = all_tags | uniq | sort %}
+            
+            <div class="publication-filters">
+              <a href="#" class="filter-btn active" data-filter="all">All</a>
+              {% for tag in all_tags %}
+                {% assign tag_slug = tag | slugify %}
+                <a href="#" class="filter-btn" data-filter="{{ tag_slug }}">{{ tag }}</a>
+              {% endfor %}
             </div>
+            
+            <ol>
+              {% for pub in site.data.publications %}
+                {% assign pub_tags_slugified = "" | split: "," %}
+                {% if pub.tags %}
+                  {% for tag in pub.tags %}
+                    {% assign slugified_tag = tag | slugify %}
+                    {% assign pub_tags_slugified = pub_tags_slugified | push: slugified_tag %}
+                  {% endfor %}
+                {% endif %}
+                <li class="pub-item {{ pub_tags_slugified | join: ' ' }}">
+                  {{ pub.title }}
+                  {% if pub.pdf %} [<a href="{{ pub.pdf }}">pdf</a>]{% endif %}
+                  {% if pub.project %} [<a href="{{ pub.project }}">project page</a>]{% endif %}
+                  {% if pub.code %} [<a href="{{ pub.code }}">code</a>]{% endif %}
+                  {% if pub.slides %} [<a href="{{ pub.slides }}">slides</a>]{% endif %}
+                  {% if pub.supp %} [<a href="{{ pub.supp }}">supp</a>]{% endif %}
+                  {% if pub.poster %} [<a href="{{ pub.poster }}">poster</a>]{% endif %}
+                  {% if pub.demo %} [<a href="{{ pub.demo }}">demo</a>]{% endif %}
+                  {% if pub.video %} [<a href="{{ pub.video }}">video</a>]{% endif %}
+                  <br>
+                  {{ pub.authors }}
+                  <br>
+                  <em>{{ pub.venue }}</em>
+                  {% if pub.award %} <b style="color:red"> ({{ pub.award }})</b>{% endif %}
+                  <br>
+                  {% if pub.tags %}
+                    {% for tag in pub.tags %}
+                      <span class="pub-tag">{{ tag }}</span>
+                    {% endfor %}
+                  {% endif %}
+                  <br><br>
+                </li>
+              {% endfor %}
+            </ol>
 
             <a id="Awards"></a>
             <hr>
