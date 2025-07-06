@@ -311,7 +311,7 @@
   pdf: "https://siyuhuang.github.io/papers/EMNLP-Findings-2020-Dual%20Low-Rank%20Multimodal%20Fusion.pdf"
   tags:
     - Multimodal
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "Neighbours Matter: Image Captioning with Similar Images"
   authors: "Qingzhong Wang, Jiuniu Wang, Antoni Chan, <b>Siyu Huang</b>, Haoyi Xiong, Xingjian Li, Dejing Dou"
@@ -319,7 +319,7 @@
   pdf: "https://siyuhuang.github.io/papers/BMVC-2020-Neighbours%20Matter-%20Image%20Captioning%20with%20Similar%20Images.pdf"
   tags:
     - Multimodal
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "Generating Person Images with Appearance-aware Pose Stylizer"
   authors: "<b>Siyu Huang</b>, Haoyi Xiong, Zhi-Qi Cheng, Qingzhong Wang, Xingran Zhou, Bihan Wen, Jun Huan, Dejing Dou"
@@ -336,7 +336,7 @@
   pdf: "https://siyuhuang.github.io/papers/IJCAI-2020-SBAT%20Video%20Captioning%20with%20Sparse%20Boundary-Aware%20Transformer.pdf"
   tags:
     - Multimodal
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "Stacked Pooling for Boosting Scale Invariance of Crowd Counting"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhi-Qi Cheng, Zhongfei Zhang, Alexander Hauptmann"
@@ -344,7 +344,7 @@
   pdf: "https://siyuhuang.github.io/papers/ICASSP-2020-STACKED%20POOLING%20FOR%20BOOSTING%20SCALE%20INVARIANCE%20OF%20CROWD%20COUNTING.pdf"
   code: "https://github.com/siyuhuang/crowdcount-stackpool"
   tags:
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "Low-Rank HOCA: Efficient High-Order Cross-Modal Attention for Video Captioning"
   authors: "Tao Jin, <b>Siyu Huang</b>, Yingming Li, Zhongfei Zhang"
@@ -352,7 +352,7 @@
   pdf: "https://siyuhuang.github.io/papers/EMNLP-2019-Low-Rank%20HOCA.pdf"
   tags:
     - Multimodal
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "Text Guided Person Image Synthesis"
   authors: "Xingran Zhou, <b>Siyu Huang</b>, Bin Li, Yingming Li, Jiachen Li, Zhongfei Zhang."
@@ -369,7 +369,7 @@
   pdf: "https://siyuhuang.github.io/papers/TIP-2019-User-Ranking%20Video%20Summarization%20with%20Multi-Stage%20Spatio-Temporal%20Representation.pdf"
   demo: "https://drive.google.com/open?id=1yVRRM6DFQRlK0UFKADjwLxbRbCdSQyDF"
   tags:
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "Perceiving Physical Equation by Observing Visual Scenarios"
   authors: "<b>Siyu Huang*</b>, Zhi-Qi Cheng*, Xi Li, Xiao Wu, Zhongfei Zhang, Alexander Hauptmann."
@@ -377,7 +377,7 @@
   pdf: "https://siyuhuang.github.io/papers/NIPSW-2018-Perceiving%20Physical%20Equation%20by%20Observing%20Visual%20Scenarios.pdf"
   tags:
     - Physics
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "TVT: Two-View Transformer Network for Video Captioning"
   authors: "Ming Chen, Yingming Li, Zhongfei Zhang, <b>Siyu Huang</b>."
@@ -385,7 +385,7 @@
   pdf: "https://siyuhuang.github.io/papers/ACML-2018-Two-View%20Transformer%20Network%20for%20Video%20Captioning.pdf"
   tags:
     - Multimodal
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "GNAS: A Greedy Neural Architecture Search Method for Multi-Attribute Learning"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhi-Qi Cheng, Zhongfei Zhang, Alexander Hauptmann."
@@ -410,11 +410,11 @@
   pdf: "https://siyuhuang.github.io/papers/TIP-2018-Body%20Structure%20Aware%20Deep%20Crowd%20Counting.pdf"
   demo: "https://drive.google.com/open?id=1X86WV6pnGD7pYYSI5Sxwj2ooI6jrm-z2"
   tags:
-    - Image/Video Understanding
+    - Visual Understanding
 
 - title: "Deep Learning Driven Visual Path Prediction From a Single Image"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhongfei Zhang, Zhouzhou He, Fei Wu, Wei Liu, Jinhui Tang, Yueting Zhuang."
   venue: "IEEE Transactions on Image Processing (TIP), 2016"
   pdf: "https://siyuhuang.github.io/papers/TIP-2016-Deep%20Learning%20Driven%20Visual%20Path%20Prediction%20from%20a%20Single%20Image%20.pdf"
   tags:
-    - Image/Video Understanding
+    - Visual Understanding
