@@ -13,7 +13,7 @@
   venue: "npj Digital Medicine, 2025"
   pdf: "https://arxiv.org/abs/2409.06644"
   tags:
-    - Medical AI
+    - Medical
     - Multimodal
     - Foundation Model
 
@@ -64,6 +64,7 @@
   project: "https://latent-radiance-field.github.io/LRF/"
   tags:
     - 3D
+    - Graphics
 
 - title: "3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors"
   authors: "Xi Liu*, Chaoyi Zhou*, <b>Siyu Huang</b>"
@@ -74,6 +75,7 @@
   award: "Spotlight"
   tags:
     - 3D
+    - Graphics
     - Diffusion Model
     - Image Synthesis
 
@@ -84,7 +86,7 @@
   code: "https://github.com/GuoLanqing/Self-Cascade"
   project: "https://guolanqing.github.io/Self-Cascade/"
   tags:
-    - Diffusion
+    - Diffusion Model
     - Image Synthesis
 
 - title: "Fundus2Video: Cross-Modal Angiography Video Generation from Static Fundus Photography with Clinical Knowledge Guidance"
@@ -92,7 +94,7 @@
   venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024"
   pdf: "https://arxiv.org/abs/2408.15217"
   tags:
-    - Medical AI
+    - Medical
     - Multimodal
     - Image Synthesis
 
@@ -101,7 +103,7 @@
   venue: "IEEE Transactions on Artificial Intelligence (TAI), 2024"
   pdf: "https://siyuhuang.github.io/papers/TAI-2024-MTPret_Improving_X-Ray_Image_Analytics_With_Multitask_Pretraining.pdf"
   tags:
-    - Medical AI
+    - Medical
     - Foundation Model
 
 - title: "Learning Gaze-aware Compositional GAN from Limited Annotations"
@@ -120,7 +122,7 @@
   pdf: "https://arxiv.org/abs/2310.16783"
   code: "https://github.com/kangxian97/S3-TTA"
   tags:
-    - Biomedical AI
+    - Biomedical
 
 - title: "Towards Robust Image Denoising via Flow-based Joint Image and Noise Model"
   authors: "Lanqing Guo, <b>Siyu Huang</b>, Haosen Liu, and Bihan Wen"
@@ -153,7 +155,7 @@
   code: "https://github.com/zudi-lin/pytorch_connectomics/tree/master/projects/CySGAN"
   tags:
     - 3D
-    - Biomedical AI
+    - Biomedical
     - GAN
     - Image Synthesis
 
@@ -184,7 +186,7 @@
   code: "https://github.com/cliangyu/CSVAL"
   tags:
     - Active Learning
-    - Medical AI
+    - Medical
 
 - title: "Cross-Model Consensus of Explanations and Beyond for Image Classification Models: An Empirical Study"
   authors: "Xuhong Li, Haoyi Xiong, <b>Siyu Huang</b>, Shilei Ji, Dejing Dou"
@@ -215,7 +217,7 @@
   venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022"
   pdf: "https://siyuhuang.github.io/papers/MICCAI-2022-MUSCLE-%20Multi-task%20Self-supervised%20Continual%20Learning%20to%20Pre-train%20Deep%20Models%20for%20X-Ray%20Images%20of%20Multiple%20Body%20Parts.pdf"
   tags:
-    - Medical AI
+    - Medical
     - Foundation Model
 
 - title: "A Unified Framework for Bidirectional Prototype Learning from Contaminated Faces across Heterogeneous Domains"
@@ -292,8 +294,7 @@
   venue: "IEEE International Conference on Digital Health (ICDH), 2021"
   pdf: "https://ieeexplore.ieee.org/abstract/document/9581178"
   tags:
-    - Medical AI
-    - Data Mining
+    - Medical
 
 - title: "ArtFlow: Unbiased Image Style Transfer via Reversible Neural Flows"
   authors: "Jie An*, <b>Siyu Huang*</b>, Yibing Song, Dejing Dou, Wei Liu, Jiebo Luo"
