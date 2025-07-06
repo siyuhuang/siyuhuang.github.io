@@ -202,7 +202,6 @@
                 <div class="span">
                     <h4>Publications</h4>
 
-                    {% raw %}
                     {% assign all_tags = "" | split: "," %}
                     {% for pub in site.data.publications %}
                       {% for tag in pub.tags %}
@@ -252,7 +251,7 @@
                         </li>
                       {% endfor %}
                     </ol>
-                    {% endraw %}
+
                 </div>
             </div>
 
