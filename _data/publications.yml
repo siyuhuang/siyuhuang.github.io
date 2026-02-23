@@ -1,5 +1,20 @@
 # _data/publications.yml
 
+- title: "HAD: Hallucination-Aware Diffusion Priors for 3D Reconstruction"
+  authors: "Xi Liu, Weiwei Sun, Zhou Ren, Chris Broaddus, <b>Siyu Huang</b>, Laurent Guigues"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+  tags:
+    - 3D
+    - Graphics
+    
+- title: "FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views"
+  authors: "Chaoyi Zhou, Run Wang, Feng Luo, Mert D. Pesé, Zhiwen Fan, Yiqi Zhong, <b>Siyu Huang</b>"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026"
+  tags:
+    - 3D
+    - Graphics
+
+    
 - title: "Bézier Splatting for Fast and Differentiable Vector Graphics Rendering"
   authors: "Xi Liu, Chaoyi Zhou, Nanxuan Zhao, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025"
