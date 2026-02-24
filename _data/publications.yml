@@ -14,9 +14,11 @@
     - 3D
     - Graphics
 
-- title: "BONNET: Ultra-Fast Whole-Body Bone Segmentation from CT Scans"
+- title: "Bonnet: Ultra-Fast Whole-Body Bone Segmentation from CT Scans"
   authors: "Hanjiang Zhu, Pedro Martelleto Rezende, Zhang Yang, Tong Ye, Bruce Z. Gao, Feng Luo, <b>Siyu Huang</b>, Jiancheng Yang"
   venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2026"
+  pdf: "https://www.arxiv.org/abs/2601.22576"
+  code: "https://github.com/HINTLab/Bonnet"
   tags:
     - Medical
     - Visual Understanding
