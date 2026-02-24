@@ -14,7 +14,13 @@
     - 3D
     - Graphics
 
-    
+- title: "BONNET: Ultra-Fast Whole-Body Bone Segmentation from CT Scans"
+  authors: "Hanjiang Zhu, Pedro Martelleto Rezende, Zhang Yang, Tong Ye, Bruce Z. Gao, Feng Luo, <b>Siyu Huang</b>, Jiancheng Yang"
+  venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2026"
+  tags:
+    - Medical
+    - Visual Understanding
+
 - title: "Bézier Splatting for Fast and Differentiable Vector Graphics Rendering"
   authors: "Xi Liu, Chaoyi Zhou, Nanxuan Zhao, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025"
