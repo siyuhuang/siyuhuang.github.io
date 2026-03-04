@@ -6,6 +6,8 @@
   tags:
     - 3D
     - Graphics
+    - Diffusion Model
+    - Image Synthesis
     
 - title: "FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views"
   authors: "Chaoyi Zhou, Run Wang, Feng Luo, Mert D. Pesé, Zhiwen Fan, Yiqi Zhong, <b>Siyu Huang</b>"
