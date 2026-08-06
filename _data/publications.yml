@@ -16,6 +16,31 @@
     - 3D
     - Graphics
 
+- title: "Fundus to Fluorescein Angiography Video Generation as a Retinal Generative Foundation Model"
+  authors: "Weiyi Zhang, Jiancheng Yang, Ruoyu Chen, <b>Siyu Huang</b>, Pusheng Xu, Xiaolan Chen, Zhenhan Wang, Shanfu Lu, Hongyu Cao, Xianwen Shang, Danli Shi, Mingguang He"
+  venue: "npj Digital Medicine, 2026"
+  tags:
+    - Medical
+    - Multimodal
+    - Foundation Model
+    - Image Synthesis
+
+- title: "Toward Inherently Robust VLMs Against Visual Perception Attacks"
+  authors: "Pedram Mohajer Ansari, Amir Salarpour, Michael Kühr, <b>Siyu Huang</b>, Mohammad Hamad, Habeeb Olufowobi, Sebastian Steinhorst, Bing Li, Mert Pesé"
+  venue: "IEEE Intelligent Vehicles Symposium (IV), 2026"
+  tags:
+    - Multimodal
+    - Security
+    - Visual Understanding
+
+- title: "Synthetic Melanoma Image Generation and Evaluation Using Generative Adversarial Networks"
+  authors: "Pei-Yu Lin, Yidan Shen, Neville Mathew, Renjie Hu, <b>Siyu Huang</b>, Courtney M. Queen, Cameron E. West, Ana Ciurea, George Zouridakis"
+  venue: "Bioengineering, 2026"
+  tags:
+    - Medical
+    - GAN
+    - Image Synthesis
+
 - title: "Bonnet: Ultra-Fast Whole-Body Bone Segmentation from CT Scans"
   authors: "Hanjiang Zhu, Pedro Martelleto Rezende, Zhang Yang, Tong Ye, Bruce Z. Gao, Feng Luo, <b>Siyu Huang</b>, Jiancheng Yang"
   venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2026"
