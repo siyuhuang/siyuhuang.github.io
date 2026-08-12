@@ -3,6 +3,7 @@
 - title: "Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors"
   authors: "Lanqing Guo, Yufei Wang, Hezhen Hu, Yan Zheng, Yeying Jin, <b>Siyu Huang</b>, Zhangyang Wang"
   venue: "International Journal of Computer Vision (IJCV), 2026"
+  pdf: "https://siyuhuang.github.io/papers/IJCV-2026-Mastering%20Regional%203DGS.pdf"
   tags:
     - 3D
     - Graphics
@@ -12,6 +13,9 @@
 - title: "HAD: Hallucination-Aware Diffusion Priors for 3D Reconstruction"
   authors: "Xi Liu, Weiwei Sun, Zhou Ren, Chris Broaddus, <b>Siyu Huang</b>, Laurent Guigues"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+  pdf: "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_HAD_Hallucination-Aware_Diffusion_Priors_for_3D_Reconstruction_CVPR_2026_paper.pdf"
+  code: "https://github.com/xiliu8006/HAD"
+  project: "https://xiliu8006.github.io/HAD-Project-website/"
   tags:
     - 3D
     - Graphics
@@ -21,6 +25,7 @@
 - title: "FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views"
   authors: "Chaoyi Zhou, Run Wang, Feng Luo, Mert D. Pesé, Zhiwen Fan, Yiqi Zhong, <b>Siyu Huang</b>"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026"
+  pdf: "https://openaccess.thecvf.com/content/CVPR2026F/papers/Zhou_FF3R_Feedforward_Feature_3D_Reconstruction_from_Unconstrained_views_CVPRF_2026_paper.pdf"
   tags:
     - 3D
     - Graphics
@@ -28,6 +33,7 @@
 - title: "Fundus to Fluorescein Angiography Video Generation as a Retinal Generative Foundation Model"
   authors: "Weiyi Zhang, Jiancheng Yang, Ruoyu Chen, <b>Siyu Huang</b>, Pusheng Xu, Xiaolan Chen, Zhenhan Wang, Shanfu Lu, Hongyu Cao, Xianwen Shang, Danli Shi, Mingguang He"
   venue: "npj Digital Medicine, 2026"
+  pdf: "https://www.nature.com/articles/s41746-026-02804-1"
   tags:
     - Medical
     - Multimodal
@@ -37,6 +43,7 @@
 - title: "Toward Inherently Robust VLMs Against Visual Perception Attacks"
   authors: "Pedram Mohajer Ansari, Amir Salarpour, Michael Kühr, <b>Siyu Huang</b>, Mohammad Hamad, Habeeb Olufowobi, Sebastian Steinhorst, Bing Li, Mert Pesé"
   venue: "IEEE Intelligent Vehicles Symposium (IV), 2026"
+  pdf: "https://ieeexplore.ieee.org/abstract/document/11624073?casa_token=HksGRXk65wAAAAAA:r_KCL_qm16jCm1SfiLEvBD_POGyuxQfxf4WC5cZtL-nuzQS1UddPE-fKd4WZXRyM2KVPDe4Gxw"  
   tags:
     - Multimodal
     - Security
@@ -45,6 +52,7 @@
 - title: "Synthetic Melanoma Image Generation and Evaluation Using Generative Adversarial Networks"
   authors: "Pei-Yu Lin, Yidan Shen, Neville Mathew, Renjie Hu, <b>Siyu Huang</b>, Courtney M. Queen, Cameron E. West, Ana Ciurea, George Zouridakis"
   venue: "Bioengineering, 2026"
+  pdf: "https://www.mdpi.com/2306-5354/13/2/245"  
   tags:
     - Medical
     - GAN
