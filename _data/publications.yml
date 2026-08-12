@@ -1,5 +1,14 @@
 # _data/publications.yml
 
+- title: "Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors"
+  authors: "Lanqing Guo, Yufei Wang, Hezhen Hu, Yan Zheng, Yeying Jin, <b>Siyu Huang</b>, Zhangyang Wang"
+  venue: "International Journal of Computer Vision (IJCV), 2026"
+  tags:
+    - 3D
+    - Graphics
+    - Diffusion Model
+    - Image Synthesis
+
 - title: "HAD: Hallucination-Aware Diffusion Priors for 3D Reconstruction"
   authors: "Xi Liu, Weiwei Sun, Zhou Ren, Chris Broaddus, <b>Siyu Huang</b>, Laurent Guigues"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
