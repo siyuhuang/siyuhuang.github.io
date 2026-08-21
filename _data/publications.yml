@@ -10,7 +10,7 @@
     - Diffusion Model
     - Image Synthesis
 
-  - title: "ScamBench: A Multi-Dimensional Scam Benchmark through Human-AI Collaborative Data Construction"
+- title: "ScamBench: A Multi-Dimensional Scam Benchmark through Human-AI Collaborative Data Construction"
   authors: "Huaye Li, <b>Siyu Huang</b>, Jinkyung Katie Park"
   venue: "Empirical Methods in Natural Language Processing (EMNLP) Findings, 2026"
   tags:
