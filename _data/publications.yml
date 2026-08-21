@@ -10,6 +10,14 @@
     - Diffusion Model
     - Image Synthesis
 
+  - title: "ScamBench: A Multi-Dimensional Scam Benchmark through Human-AI Collaborative Data Construction"
+  authors: "Huaye Li, <b>Siyu Huang</b>, Jinkyung Katie Park"
+  venue: "Empirical Methods in Natural Language Processing (EMNLP) Findings, 2026"
+  tags:
+    - Security
+    - LLMs
+    - Dataset and Benchmark
+
 - title: "HAD: Hallucination-Aware Diffusion Priors for 3D Reconstruction"
   authors: "Xi Liu, Weiwei Sun, Zhou Ren, Chris Broaddus, <b>Siyu Huang</b>, Laurent Guigues"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
@@ -48,6 +56,7 @@
     - Multimodal
     - Security
     - Visual Understanding
+    - LLMs
 
 - title: "Synthetic Melanoma Image Generation and Evaluation Using Generative Adversarial Networks"
   authors: "Pei-Yu Lin, Yidan Shen, Neville Mathew, Renjie Hu, <b>Siyu Huang</b>, Courtney M. Queen, Cameron E. West, Ana Ciurea, George Zouridakis"
@@ -83,6 +92,7 @@
     - Medical
     - Multimodal
     - Foundation Model
+    - LLMs
 
 - title: "AutoAL: Automated Active Learning with Differentiable Query Strategy Search"
   authors: "Yifeng Wang, Xueying Zhan, <b>Siyu Huang</b>"
