@@ -1,5 +1,22 @@
 # _data/publications.yml
 
+- title: "Lang-SVG: Hierarchical Image Vectorization with Language Priors"
+  authors: "Xi Liu, Chaoyi Zhou, Run Wang, Jiaang Li, Feng Luo, Junxiang Huang, <b>Siyu Huang</b>"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
+  tags:
+    - Graphics
+    - LLMs
+
+- title: "Language-Conditioned World Modeling for Visual Navigation"
+  authors: "Yifei Dong, Fengyi Wu, Yilong Dai, Lingdong Kong, Guangyu Chen, Qiyu Hu, Yetong Sha, Feng Liu, <b>Siyu Huang</b>, Qi Dai, Zhi-Qi Cheng"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
+  pdf: "https://arxiv.org/abs/2603.26741"
+  code: "https://github.com/F1y1113/LCVN"
+  award: "Oral"
+  tags:
+    - 3D
+    - LLMs
+    
 - title: "Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors"
   authors: "Lanqing Guo, Yufei Wang, Hezhen Hu, Yan Zheng, Yeying Jin, <b>Siyu Huang</b>, Zhangyang Wang"
   venue: "International Journal of Computer Vision (IJCV), 2026"
