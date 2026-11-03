@@ -30,6 +30,7 @@
 - title: "ScamBench: A Multi-Dimensional Scam Benchmark through Human-AI Collaborative Data Construction"
   authors: "Huaye Li, <b>Siyu Huang</b>, Jinkyung Katie Park"
   venue: "Empirical Methods in Natural Language Processing (EMNLP) Findings, 2026"
+  pdf: "https://aclanthology.org/2026.findings-emnlp.404.pdf"
   tags:
     - Security
     - LLMs
@@ -122,12 +123,14 @@
 - title: "Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement"
   authors: "Yunhan Ren, Feng Luo, <b>Siyu Huang</b>"
   venue: "ACM International Conference on Multimedia Retrieval (ICMR), 2025"
+  pdf: "https://dl.acm.org/doi/pdf/10.1145/3731715.3733338"
   tags:
     - Few-Shot Learning
 
 - title: "LoRD: A Low-Rank Defense Method for Adversarial Attack on Diffusion Models"
   authors: "Jiaxuan Zhu, <b>Siyu Huang</b>"
   venue: "IEEE International Conference on Multimedia and Expo (ICME), 2025"
+  pdf: "https://arxiv.org/pdf/2602.10319"
   tags:
     - Diffusion Model
     - Security
