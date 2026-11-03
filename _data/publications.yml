@@ -11,7 +11,7 @@
 - title: "Language-Conditioned World Modeling for Visual Navigation"
   authors: "Yifei Dong, Fengyi Wu, Yilong Dai, Lingdong Kong, Guangyu Chen, Qiyu Hu, Yetong Sha, Feng Liu, <b>Siyu Huang</b>, Qi Dai, Zhi-Qi Cheng"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
-  pdf: "https://arxiv.org/abs/2603.26741"
+  pdf: "https://siyuhuang.github.io/papers/NeurIPS-2026-Language-Conditioned%20World%20Modeling%20for%20Visual%20Navigation.pdf"
   code: "https://github.com/UWMILab/LCVN"
   project: "https://f1y1113.github.io/worldnav-challenge/"
   paper: "https://neurips.cc/virtual/2026/poster/154464"
@@ -35,7 +35,7 @@
 - title: "ScamBench: A Multi-Dimensional Scam Benchmark through Human-AI Collaborative Data Construction"
   authors: "Huaye Li, <b>Siyu Huang</b>, Jinkyung Katie Park"
   venue: "Empirical Methods in Natural Language Processing (EMNLP) Findings, 2026"
-  pdf: "https://aclanthology.org/2026.findings-emnlp.404.pdf"
+  pdf: "https://siyuhuang.github.io/papers/EMNLP-Findings-2026-ScamBench%20A%20Multi-Dimensional%20Scam%20Benchmark%20through%20Human-AI%20Collaborative%20Data%20Construction.pdf"
   paper: "https://aclanthology.org/2026.findings-emnlp.404/"
   data: "https://huggingface.co/datasets/Shouninger/ScamBench"
   tags:
@@ -46,7 +46,7 @@
 - title: "HAD: Hallucination-Aware Diffusion Priors for 3D Reconstruction"
   authors: "Xi Liu, Weiwei Sun, Zhou Ren, Chris Broaddus, <b>Siyu Huang</b>, Laurent Guigues"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
-  pdf: "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_HAD_Hallucination-Aware_Diffusion_Priors_for_3D_Reconstruction_CVPR_2026_paper.pdf"
+  pdf: "https://siyuhuang.github.io/papers/CVPR-2026-HAD%20Hallucination-Aware%20Diffusion%20Priors%20for%203D%20Reconstruction.pdf"
   code: "https://github.com/xiliu8006/HAD"
   project: "https://xiliu8006.github.io/HAD-Project-website/"
   paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_HAD_Hallucination-Aware_Diffusion_Priors_for_3D_Reconstruction_CVPR_2026_paper.html"
@@ -59,7 +59,7 @@
 - title: "FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views"
   authors: "Chaoyi Zhou, Run Wang, Feng Luo, Mert D. Pesé, Zhiwen Fan, Yiqi Zhong, <b>Siyu Huang</b>"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026"
-  pdf: "https://openaccess.thecvf.com/content/CVPR2026F/papers/Zhou_FF3R_Feedforward_Feature_3D_Reconstruction_from_Unconstrained_views_CVPRF_2026_paper.pdf"
+  pdf: "https://siyuhuang.github.io/papers/CVPR-Findings-2026-FF3R%20Feedforward%20Feature%203D%20Reconstruction%20from%20Unconstrained%20Views.pdf"
   project: "https://chaoyizh.github.io/ff3r_project/"
   code: "https://github.com/ChaoyiZh/ff3r"
   paper: "https://openaccess.thecvf.com/content/CVPR2026F/html/Zhou_FF3R_Feedforward_Feature_3D_Reconstruction_from_Unconstrained_views_CVPRF_2026_paper.html"
@@ -70,7 +70,7 @@
 - title: "Fundus to Fluorescein Angiography Video Generation as a Retinal Generative Foundation Model"
   authors: "Weiyi Zhang, Jiancheng Yang, Ruoyu Chen, <b>Siyu Huang</b>, Pusheng Xu, Xiaolan Chen, Zhenhan Wang, Shanfu Lu, Hongyu Cao, Xianwen Shang, Danli Shi, Mingguang He"
   venue: "npj Digital Medicine, 2026"
-  pdf: "https://www.nature.com/articles/s41746-026-02804-1"
+  pdf: "https://siyuhuang.github.io/papers/npj%20Digital%20Medicine-2026-Fundus%20to%20Fluorescein%20Angiography%20Video%20Generation%20as%20a%20Retinal%20Generative%20Foundation%20Model.pdf"
   code: "https://github.com/Michi-3000/Fundus2Video"
   tags:
     - Medical
@@ -81,7 +81,7 @@
 - title: "Toward Inherently Robust VLMs Against Visual Perception Attacks"
   authors: "Pedram Mohajer Ansari, Amir Salarpour, Michael Kühr, <b>Siyu Huang</b>, Mohammad Hamad, Habeeb Olufowobi, Sebastian Steinhorst, Bing Li, Mert Pesé"
   venue: "IEEE Intelligent Vehicles Symposium (IV), 2026"
-  pdf: "https://arxiv.org/pdf/2506.11472"
+  pdf: "https://siyuhuang.github.io/papers/IV-2026-Toward%20Inherently%20Robust%20VLMs%20Against%20Visual%20Perception%20Attacks.pdf"
   code: "https://github.com/pedram-mohajer/V2LM"
   tags:
     - Multimodal
@@ -92,7 +92,7 @@
 - title: "Synthetic Melanoma Image Generation and Evaluation Using Generative Adversarial Networks"
   authors: "Pei-Yu Lin, Yidan Shen, Neville Mathew, Renjie Hu, <b>Siyu Huang</b>, Courtney M. Queen, Cameron E. West, Ana Ciurea, George Zouridakis"
   venue: "Bioengineering, 2026"
-  pdf: "https://www.mdpi.com/2306-5354/13/2/245/pdf"
+  pdf: "https://siyuhuang.github.io/papers/Bioengineering-2026-Synthetic%20Melanoma%20Image%20Generation%20and%20Evaluation%20Using%20Generative%20Adversarial%20Networks.pdf"
   tags:
     - Medical
     - GAN
@@ -101,7 +101,7 @@
 - title: "Bonnet: Ultra-Fast Whole-Body Bone Segmentation from CT Scans"
   authors: "Hanjiang Zhu, Pedro Martelleto Rezende, Zhang Yang, Tong Ye, Bruce Z. Gao, Feng Luo, <b>Siyu Huang</b>, Jiancheng Yang"
   venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2026"
-  pdf: "https://arxiv.org/pdf/2601.22576"
+  pdf: "https://siyuhuang.github.io/papers/ISBI-2026-Bonnet%20Ultra-Fast%20Whole-Body%20Bone%20Segmentation%20from%20CT%20Scans.pdf"
   code: "https://github.com/HINTLab/Bonnet"
   data: "https://huggingface.co/hanjiangjiang123/Bonnet/tree/main/CACHE/batch_specs%3D(sparse_voxel)%2Chu_max%3D3000%2Chu_min%3D200"
   models: "https://huggingface.co/hanjiangjiang123/Bonnet/tree/main"
@@ -112,7 +112,7 @@
 - title: "Bézier Splatting for Fast and Differentiable Vector Graphics Rendering"
   authors: "Xi Liu, Chaoyi Zhou, Nanxuan Zhao, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025"
-  pdf: "https://arxiv.org/abs/2503.16424"
+  pdf: "https://siyuhuang.github.io/papers/NeurIPS-2025-B%C3%A9zier%20Splatting%20for%20Fast%20and%20Differentiable%20Vector%20Graphics%20Rendering.pdf"
   project: "https://xiliu8006.github.io/Bezier_splatting_project/"
   code: "https://github.com/xiliu8006/Bezier_splatting"
   tags:
@@ -121,7 +121,7 @@
 - title: "A Multimodal Visual–Language Foundation Model for Computational Ophthalmology"
   authors: "Danli Shi, Weiyi Zhang, Jiancheng Yang, <b>Siyu Huang</b>, Xiaolan Chen, Mayinuer Yusufu, Kai Jin, Shan Lin, Shunming Liu, Qing Zhang, Mingguang He"
   venue: "npj Digital Medicine, 2025"
-  pdf: "https://arxiv.org/abs/2409.06644"
+  pdf: "https://siyuhuang.github.io/papers/npj%20Digital%20Medicine-2025-A%20Multimodal%20Visual%E2%80%93Language%20Foundation%20Model%20for%20Computational%20Ophthalmology.pdf"
   code: "https://github.com/Michi-3000/EyeCLIP"
   models: "https://drive.google.com/file/d/1kWpbDqFCFt4j8RkYqacV4nl-aCKZfqZr/view"
   tags:
@@ -133,7 +133,7 @@
 - title: "AutoAL: Automated Active Learning with Differentiable Query Strategy Search"
   authors: "Yifeng Wang, Xueying Zhan, <b>Siyu Huang</b>"
   venue: "International Conference on Machine Learning (ICML), 2025"
-  pdf: "https://arxiv.org/abs/2410.13853"
+  pdf: "https://siyuhuang.github.io/papers/ICML-2025-AutoAL%20Automated%20Active%20Learning%20with%20Differentiable%20Query%20Strategy%20Search.pdf"
   code: "https://github.com/haizailache999/AutoAL"
   tags:
     - Active Learning
@@ -142,7 +142,7 @@
 - title: "Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement"
   authors: "Yunhan Ren, Feng Luo, <b>Siyu Huang</b>"
   venue: "ACM International Conference on Multimedia Retrieval (ICMR), 2025"
-  pdf: "https://arxiv.org/pdf/2506.16728"
+  pdf: "https://siyuhuang.github.io/papers/ICMR-2025-Few-Shot%20Generalized%20Category%20Discovery%20With%20Retrieval-Guided%20Decision%20Boundary%20Enhancement.pdf"
   code: "https://github.com/Ryh1218/FSGCD"
   tags:
     - Few-Shot Learning
@@ -150,7 +150,7 @@
 - title: "LoRD: A Low-Rank Defense Method for Adversarial Attack on Diffusion Models"
   authors: "Jiaxuan Zhu, <b>Siyu Huang</b>"
   venue: "IEEE International Conference on Multimedia and Expo (ICME), 2025"
-  pdf: "https://arxiv.org/pdf/2602.10319"
+  pdf: "https://siyuhuang.github.io/papers/ICME-2025-LoRD%20A%20Low-Rank%20Defense%20Method%20for%20Adversarial%20Attack%20on%20Diffusion%20Models.pdf"
   tags:
     - Diffusion Model
     - Security
@@ -158,7 +158,7 @@
 - title: "Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions"
   authors: "Yifei Dong, Fengyi Wu, Sanjian Zhang, Guangyu Chen, Yuzhi Hu, Masumi Yano, Jingdong Sun, <b>Siyu Huang</b>, Feng Liu, Qi Dai, Zhi-Qi Cheng"
   venue: "CVPR 4th Anti-UAV Workshop, 2025"
-  pdf: "https://arxiv.org/pdf/2504.11967"
+  pdf: "https://siyuhuang.github.io/papers/CVPRW-2025-Securing%20the%20Skies%20A%20Comprehensive%20Survey%20on%20Anti-UAV%20Methods%2C%20Benchmarking%2C%20and%20Future%20Directions.pdf"
   award: "Best Paper"
   tags:
     - Survey
@@ -167,7 +167,7 @@
 - title: "SoftShadow: Leveraging Soft Masks for Penumbra-Aware Shadow Removal"
   authors: "Xinrui Wang, Lanqing Guo, Xiyu Wang, <b>Siyu Huang</b>, Bihan Wen"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
-  pdf: "https://arxiv.org/abs/2409.07041"
+  pdf: "https://siyuhuang.github.io/papers/CVPR-2025-SoftShadow%20Leveraging%20Soft%20Masks%20for%20Penumbra-Aware%20Shadow%20Removal.pdf"
   code: "https://github.com/Xinrui014/SoftShadow"
   tags:
     - Image Restoration
@@ -175,7 +175,7 @@
 - title: "Latent Radiance Fields with 3D-aware 2D Representations"
   authors: "Chaoyi Zhou*, Xi Liu*, Feng Luo, <b>Siyu Huang</b>"
   venue: "International Conference on Learning Representations (ICLR), 2025"
-  pdf: "https://arxiv.org/abs/2502.09613"
+  pdf: "https://siyuhuang.github.io/papers/ICLR-2025-Latent%20Radiance%20Fields%20with%203D-aware%202D%20Representations.pdf"
   code: "https://github.com/ChaoyiZh/latent-radiance-field"
   project: "https://latent-radiance-field.github.io/LRF/"
   models: "https://huggingface.co/chaoyizh/LRF"
@@ -186,7 +186,7 @@
 - title: "3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors"
   authors: "Xi Liu*, Chaoyi Zhou*, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2024"
-  pdf: "https://arxiv.org/pdf/2410.16266"
+  pdf: "https://siyuhuang.github.io/papers/NeurIPS-2024-3DGS-Enhancer%20Enhancing%20Unbounded%203D%20Gaussian%20Splatting%20with%20View-consistent%202D%20Diffusion%20Priors.pdf"
   code: "https://github.com/xiliu8006/3DGS-Enhancer"
   project: "https://xiliu8006.github.io/3DGS-Enhancer-project/"
   models: "https://drive.google.com/drive/folders/1M-xtjP-Nc_0pKwRc6qhPvYkzDUcz-K_T"
@@ -200,7 +200,7 @@
 - title: "Make a Cheap Scaling: A Self-Cascade Diffusion Model for Higher-Resolution Adaptation"
   authors: "Lanqing Guo, Yingqing He, Haoxin Chen, Menghan Xia, Xiaodong Cun, Yufei Wang, <b>Siyu Huang</b>, Yong Zhang, Xintao Wang, Qifeng Chen, Ying Shan, Bihan Wen"
   venue: "European Conference on Computer Vision (ECCV), 2024"
-  pdf: "https://arxiv.org/abs/2402.10491"
+  pdf: "https://siyuhuang.github.io/papers/ECCV-2024-Make%20a%20Cheap%20Scaling%20A%20Self-Cascade%20Diffusion%20Model%20for%20Higher-Resolution%20Adaptation.pdf"
   code: "https://github.com/GuoLanqing/Self-Cascade"
   project: "https://guolanqing.github.io/Self-Cascade/"
   models: "https://huggingface.co/NothingSpecialSiri/SelfCascade-SDXL/tree/main"
@@ -211,7 +211,7 @@
 - title: "Fundus2Video: Cross-Modal Angiography Video Generation from Static Fundus Photography with Clinical Knowledge Guidance"
   authors: "Weiyi Zhang, <b>Siyu Huang</b>, Jiancheng Yang, Ruoyu Chen, Zongyuan Ge, Yingfeng Zheng, Danli Shi, Mingguang He"
   venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024"
-  pdf: "https://arxiv.org/abs/2408.15217"
+  pdf: "https://siyuhuang.github.io/papers/MICCAI-2024-Fundus2Video%20Cross-Modal%20Angiography%20Video%20Generation%20from%20Static%20Fundus%20Photography%20with%20Clinical%20Knowledge%20Guidance.pdf"
   code: "https://github.com/Michi-3000/Fundus2Video"
   tags:
     - Medical
@@ -239,7 +239,7 @@
 - title: "S3-TTA: Scale-Style Selection for Test-Time Augmentation in Biomedical Image Segmentation"
   authors: "Kangxian Xie, <b>Siyu Huang</b>, Sebastian Andres Cajas Ordonez, Hanspeter Pfister, Donglai Wei"
   venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2024"
-  pdf: "https://arxiv.org/abs/2310.16783"
+  pdf: "https://siyuhuang.github.io/papers/ISBI-2024-S3-TTA%20Scale-Style%20Selection%20for%20Test-Time%20Augmentation%20in%20Biomedical%20Image%20Segmentation.pdf"
   code: "https://github.com/kangxian97/S3-TTA"
   tags:
     - Biomedical
@@ -285,7 +285,7 @@
 - title: "QuantArt: Quantizing Image Style Transfer Towards High Visual Fidelity"
   authors: "<b>Siyu Huang*</b>, Jie An*, Donglai Wei, Jiebo Luo, Hanspeter Pfister"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
-  pdf: "https://arxiv.org/abs/2212.10431"
+  pdf: "https://siyuhuang.github.io/papers/CVPR-2023-QuantArt%20Quantizing%20Image%20Style%20Transfer%20Towards%20High%20Visual%20Fidelity.pdf"
   slides: "https://siyuhuang.github.io/papers/CVPR23-QuantArt-slides.pdf"
   code: "https://github.com/siyuhuang/QuantArt"
   models: "https://github.com/siyuhuang/QuantArt#datasets-and-pre-trained-models"
@@ -296,7 +296,7 @@
 - title: "ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal"
   authors: "Lanqing Guo, Chong Wang, Wenhan Yang, <b>Siyu Huang</b>, Yufei Wang, Hanspeter Pfister, Bihan Wen"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
-  pdf: "https://arxiv.org/abs/2212.04711"
+  pdf: "https://siyuhuang.github.io/papers/CVPR-2023-ShadowDiffusion%20When%20Degradation%20Prior%20Meets%20Diffusion%20Model%20for%20Shadow%20Removal.pdf"
   code: "https://github.com/GuoLanqing/ShadowDiffusion"
   models: "https://drive.google.com/file/d/12VV5HzxlIg_kCjMHsw8R9n543wYfGfAB/view"
   tags:
@@ -306,7 +306,7 @@
 - title: "Making Your First Choice: To Address Cold Start Problem in Vision Active Learning"
   authors: "Liangyu Chen, Yutong Bai, <b>Siyu Huang</b>, Yongyi Lu, Bihan Wen, Alan Yuille, Zongwei Zhou"
   venue: "Medical Imaging with Deep Learning (MIDL), 2023"
-  pdf: "https://arxiv.org/abs/2210.02442"
+  pdf: "https://siyuhuang.github.io/papers/MIDL-2023-Making%20Your%20First%20Choice%20To%20Address%20Cold%20Start%20Problem%20in%20Vision%20Active%20Learning.pdf"
   code: "https://github.com/c-liangyu/CSVAL"
   tags:
     - Active Learning
@@ -323,7 +323,7 @@
 - title: "ShadowFormer: Global Context Helps Shadow Removal"
   authors: "Lanqing Guo, <b>Siyu Huang</b>, Ding Liu, Hao Cheng, Bihan Wen"
   venue: "AAAI Conference on Artificial Intelligence (AAAI), 2023"
-  pdf: "https://arxiv.org/abs/2302.01650"
+  pdf: "https://siyuhuang.github.io/papers/AAAI-2023-ShadowFormer%20Global%20Context%20Helps%20Shadow%20Removal.pdf"
   code: "https://github.com/GuoLanqing/ShadowFormer"
   models: "https://github.com/GuoLanqing/ShadowFormer#pretrained-models"
   tags:
