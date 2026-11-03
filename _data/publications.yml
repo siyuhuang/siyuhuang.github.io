@@ -3,6 +3,7 @@
 - title: "Lang-SVG: Hierarchical Image Vectorization with Language Priors"
   authors: "Xi Liu, Chaoyi Zhou, Run Wang, Jiaang Li, Feng Luo, Junxiang Huang, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
+  paper: "https://neurips.cc/virtual/2026/poster/155278"
   tags:
     - Graphics
     - LLMs
@@ -11,7 +12,10 @@
   authors: "Yifei Dong, Fengyi Wu, Yilong Dai, Lingdong Kong, Guangyu Chen, Qiyu Hu, Yetong Sha, Feng Liu, <b>Siyu Huang</b>, Qi Dai, Zhi-Qi Cheng"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
   pdf: "https://arxiv.org/abs/2603.26741"
-  code: "https://github.com/F1y1113/LCVN"
+  code: "https://github.com/UWMILab/LCVN"
+  project: "https://f1y1113.github.io/worldnav-challenge/"
+  paper: "https://neurips.cc/virtual/2026/poster/154464"
+  data: "https://huggingface.co/datasets/fly1113/LCVN"
   award: "Oral"
   tags:
     - 3D
@@ -21,6 +25,7 @@
   authors: "Lanqing Guo, Yufei Wang, Hezhen Hu, Yan Zheng, Yeying Jin, <b>Siyu Huang</b>, Zhangyang Wang"
   venue: "International Journal of Computer Vision (IJCV), 2026"
   pdf: "https://siyuhuang.github.io/papers/IJCV-2026-Mastering%20Regional%203DGS.pdf"
+  paper: "https://link.springer.com/article/10.1007/s11263-026-02941-w"
   tags:
     - 3D
     - Graphics
@@ -31,6 +36,8 @@
   authors: "Huaye Li, <b>Siyu Huang</b>, Jinkyung Katie Park"
   venue: "Empirical Methods in Natural Language Processing (EMNLP) Findings, 2026"
   pdf: "https://aclanthology.org/2026.findings-emnlp.404.pdf"
+  paper: "https://aclanthology.org/2026.findings-emnlp.404/"
+  data: "https://huggingface.co/datasets/Shouninger/ScamBench"
   tags:
     - Security
     - LLMs
@@ -42,6 +49,7 @@
   pdf: "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_HAD_Hallucination-Aware_Diffusion_Priors_for_3D_Reconstruction_CVPR_2026_paper.pdf"
   code: "https://github.com/xiliu8006/HAD"
   project: "https://xiliu8006.github.io/HAD-Project-website/"
+  paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_HAD_Hallucination-Aware_Diffusion_Priors_for_3D_Reconstruction_CVPR_2026_paper.html"
   tags:
     - 3D
     - Graphics
@@ -52,6 +60,9 @@
   authors: "Chaoyi Zhou, Run Wang, Feng Luo, Mert D. Pesé, Zhiwen Fan, Yiqi Zhong, <b>Siyu Huang</b>"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026"
   pdf: "https://openaccess.thecvf.com/content/CVPR2026F/papers/Zhou_FF3R_Feedforward_Feature_3D_Reconstruction_from_Unconstrained_views_CVPRF_2026_paper.pdf"
+  project: "https://chaoyizh.github.io/ff3r_project/"
+  code: "https://github.com/ChaoyiZh/ff3r"
+  paper: "https://openaccess.thecvf.com/content/CVPR2026F/html/Zhou_FF3R_Feedforward_Feature_3D_Reconstruction_from_Unconstrained_views_CVPRF_2026_paper.html"
   tags:
     - 3D
     - Graphics
@@ -60,6 +71,7 @@
   authors: "Weiyi Zhang, Jiancheng Yang, Ruoyu Chen, <b>Siyu Huang</b>, Pusheng Xu, Xiaolan Chen, Zhenhan Wang, Shanfu Lu, Hongyu Cao, Xianwen Shang, Danli Shi, Mingguang He"
   venue: "npj Digital Medicine, 2026"
   pdf: "https://www.nature.com/articles/s41746-026-02804-1"
+  code: "https://github.com/Michi-3000/Fundus2Video"
   tags:
     - Medical
     - Multimodal
@@ -69,7 +81,8 @@
 - title: "Toward Inherently Robust VLMs Against Visual Perception Attacks"
   authors: "Pedram Mohajer Ansari, Amir Salarpour, Michael Kühr, <b>Siyu Huang</b>, Mohammad Hamad, Habeeb Olufowobi, Sebastian Steinhorst, Bing Li, Mert Pesé"
   venue: "IEEE Intelligent Vehicles Symposium (IV), 2026"
-  pdf: "https://ieeexplore.ieee.org/abstract/document/11624073?casa_token=HksGRXk65wAAAAAA:r_KCL_qm16jCm1SfiLEvBD_POGyuxQfxf4WC5cZtL-nuzQS1UddPE-fKd4WZXRyM2KVPDe4Gxw"  
+  pdf: "https://arxiv.org/pdf/2506.11472"
+  code: "https://github.com/pedram-mohajer/V2LM"
   tags:
     - Multimodal
     - Security
@@ -79,7 +92,7 @@
 - title: "Synthetic Melanoma Image Generation and Evaluation Using Generative Adversarial Networks"
   authors: "Pei-Yu Lin, Yidan Shen, Neville Mathew, Renjie Hu, <b>Siyu Huang</b>, Courtney M. Queen, Cameron E. West, Ana Ciurea, George Zouridakis"
   venue: "Bioengineering, 2026"
-  pdf: "https://www.mdpi.com/2306-5354/13/2/245"  
+  pdf: "https://www.mdpi.com/2306-5354/13/2/245/pdf"
   tags:
     - Medical
     - GAN
@@ -88,8 +101,10 @@
 - title: "Bonnet: Ultra-Fast Whole-Body Bone Segmentation from CT Scans"
   authors: "Hanjiang Zhu, Pedro Martelleto Rezende, Zhang Yang, Tong Ye, Bruce Z. Gao, Feng Luo, <b>Siyu Huang</b>, Jiancheng Yang"
   venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2026"
-  pdf: "https://www.arxiv.org/abs/2601.22576"
+  pdf: "https://arxiv.org/pdf/2601.22576"
   code: "https://github.com/HINTLab/Bonnet"
+  data: "https://huggingface.co/hanjiangjiang123/Bonnet/tree/main/CACHE/batch_specs%3D(sparse_voxel)%2Chu_max%3D3000%2Chu_min%3D200"
+  models: "https://huggingface.co/hanjiangjiang123/Bonnet/tree/main"
   tags:
     - Medical
     - Visual Understanding
@@ -99,6 +114,7 @@
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025"
   pdf: "https://arxiv.org/abs/2503.16424"
   project: "https://xiliu8006.github.io/Bezier_splatting_project/"
+  code: "https://github.com/xiliu8006/Bezier_splatting"
   tags:
     - Graphics
 
@@ -106,6 +122,8 @@
   authors: "Danli Shi, Weiyi Zhang, Jiancheng Yang, <b>Siyu Huang</b>, Xiaolan Chen, Mayinuer Yusufu, Kai Jin, Shan Lin, Shunming Liu, Qing Zhang, Mingguang He"
   venue: "npj Digital Medicine, 2025"
   pdf: "https://arxiv.org/abs/2409.06644"
+  code: "https://github.com/Michi-3000/EyeCLIP"
+  models: "https://drive.google.com/file/d/1kWpbDqFCFt4j8RkYqacV4nl-aCKZfqZr/view"
   tags:
     - Medical
     - Multimodal
@@ -116,6 +134,7 @@
   authors: "Yifeng Wang, Xueying Zhan, <b>Siyu Huang</b>"
   venue: "International Conference on Machine Learning (ICML), 2025"
   pdf: "https://arxiv.org/abs/2410.13853"
+  code: "https://github.com/haizailache999/AutoAL"
   tags:
     - Active Learning
     - AutoML
@@ -123,7 +142,8 @@
 - title: "Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement"
   authors: "Yunhan Ren, Feng Luo, <b>Siyu Huang</b>"
   venue: "ACM International Conference on Multimedia Retrieval (ICMR), 2025"
-  pdf: "https://dl.acm.org/doi/pdf/10.1145/3731715.3733338"
+  pdf: "https://arxiv.org/pdf/2506.16728"
+  code: "https://github.com/Ryh1218/FSGCD"
   tags:
     - Few-Shot Learning
 
@@ -138,7 +158,7 @@
 - title: "Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions"
   authors: "Yifei Dong, Fengyi Wu, Sanjian Zhang, Guangyu Chen, Yuzhi Hu, Masumi Yano, Jingdong Sun, <b>Siyu Huang</b>, Feng Liu, Qi Dai, Zhi-Qi Cheng"
   venue: "CVPR 4th Anti-UAV Workshop, 2025"
-  pdf: "https://arxiv.org/abs/2504.11967"
+  pdf: "https://arxiv.org/pdf/2504.11967"
   award: "Best Paper"
   tags:
     - Survey
@@ -158,6 +178,7 @@
   pdf: "https://arxiv.org/abs/2502.09613"
   code: "https://github.com/ChaoyiZh/latent-radiance-field"
   project: "https://latent-radiance-field.github.io/LRF/"
+  models: "https://huggingface.co/chaoyizh/LRF"
   tags:
     - 3D
     - Graphics
@@ -165,9 +186,10 @@
 - title: "3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors"
   authors: "Xi Liu*, Chaoyi Zhou*, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2024"
-  pdf: "https://arxiv.org/abs/2410.16266"
+  pdf: "https://arxiv.org/pdf/2410.16266"
   code: "https://github.com/xiliu8006/3DGS-Enhancer"
   project: "https://xiliu8006.github.io/3DGS-Enhancer-project/"
+  models: "https://drive.google.com/drive/folders/1M-xtjP-Nc_0pKwRc6qhPvYkzDUcz-K_T"
   award: "Spotlight"
   tags:
     - 3D
@@ -181,6 +203,7 @@
   pdf: "https://arxiv.org/abs/2402.10491"
   code: "https://github.com/GuoLanqing/Self-Cascade"
   project: "https://guolanqing.github.io/Self-Cascade/"
+  models: "https://huggingface.co/NothingSpecialSiri/SelfCascade-SDXL/tree/main"
   tags:
     - Diffusion Model
     - Image Synthesis
@@ -189,6 +212,7 @@
   authors: "Weiyi Zhang, <b>Siyu Huang</b>, Jiancheng Yang, Ruoyu Chen, Zongyuan Ge, Yingfeng Zheng, Danli Shi, Mingguang He"
   venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024"
   pdf: "https://arxiv.org/abs/2408.15217"
+  code: "https://github.com/Michi-3000/Fundus2Video"
   tags:
     - Medical
     - Multimodal
@@ -241,6 +265,7 @@
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023"
   pdf: "https://siyuhuang.github.io/papers/TPAMI-2023-Domain-Scalable_Unpaired_Image_Translation_Via_Latent_Space_Anchoring.pdf"
   code: "https://github.com/siyuhuang/Latent-Space-Anchoring"
+  models: "https://github.com/siyuhuang/Latent-Space-Anchoring#pretrained-models"
   tags:
     - Image Synthesis
 
@@ -249,7 +274,8 @@
   venue: "IEEE Journal of Biomedical and Health Informatics (JBHI), 2023"
   pdf: "https://siyuhuang.github.io/papers/JBHI-2023-3D_Domain_Adaptive_Instance_Segmentation_Via_Cyclic_Segmentation_GANs.pdf"
   project: "https://connectomics-bazaar.github.io/proj/CySGAN/index.html"
-  code: "https://github.com/zudi-lin/pytorch_connectomics/tree/master/projects/CySGAN"
+  code: "https://github.com/PytorchConnectomics/pytorch_connectomics/tree/v1.0/projects/CySGAN"
+  data: "https://docs.google.com/forms/d/e/1FAIpQLSfO_iuzA6r0-VTBI-wq0i7Q230-vAaNhJ3spiMAALd_r9oFOg/viewform"
   tags:
     - 3D
     - Biomedical
@@ -262,6 +288,7 @@
   pdf: "https://arxiv.org/abs/2212.10431"
   slides: "https://siyuhuang.github.io/papers/CVPR23-QuantArt-slides.pdf"
   code: "https://github.com/siyuhuang/QuantArt"
+  models: "https://github.com/siyuhuang/QuantArt#datasets-and-pre-trained-models"
   tags:
     - Style Transfer
     - Image Synthesis
@@ -271,6 +298,7 @@
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
   pdf: "https://arxiv.org/abs/2212.04711"
   code: "https://github.com/GuoLanqing/ShadowDiffusion"
+  models: "https://drive.google.com/file/d/12VV5HzxlIg_kCjMHsw8R9n543wYfGfAB/view"
   tags:
     - Image Restoration
     - Diffusion Model
@@ -279,7 +307,7 @@
   authors: "Liangyu Chen, Yutong Bai, <b>Siyu Huang</b>, Yongyi Lu, Bihan Wen, Alan Yuille, Zongwei Zhou"
   venue: "Medical Imaging with Deep Learning (MIDL), 2023"
   pdf: "https://arxiv.org/abs/2210.02442"
-  code: "https://github.com/cliangyu/CSVAL"
+  code: "https://github.com/c-liangyu/CSVAL"
   tags:
     - Active Learning
     - Medical
@@ -297,6 +325,7 @@
   venue: "AAAI Conference on Artificial Intelligence (AAAI), 2023"
   pdf: "https://arxiv.org/abs/2302.01650"
   code: "https://github.com/GuoLanqing/ShadowFormer"
+  models: "https://github.com/GuoLanqing/ShadowFormer#pretrained-models"
   tags:
     - Image Restoration
 
@@ -331,6 +360,7 @@
   venue: "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2022"
   pdf: "https://siyuhuang.github.io/papers/ICASSP-2022-Parameter-Free_Style_Projection_for_Arbitrary_Image_Style_Transfer.pdf"
   code: "https://github.com/PaddlePaddle/PaddleHub/tree/dbca09ae78b5387ebe3b49f37ce88de45d41d26a/hub_module/modules/image/style_transfer/stylepro_artistic"
+  demo: "https://www.paddlepaddle.org.cn/hubdetail?name=stylepro_artistic"
   tags:
     - Style Transfer
     - Image Synthesis
@@ -341,6 +371,7 @@
   pdf: "https://siyuhuang.github.io/papers/AAAI-2022-BM-NAS-Bilevel%20Multimodal%20Neural%20Architecture%20Search.pdf"
   video: "https://www.youtube.com/watch?v=EGZu5bOi_M4"
   code: "https://github.com/Somedaywilldo/BM-NAS"
+  poster: "https://github.com/Somedaywilldo/BM-NAS/blob/master/poster.pdf"
   award: "Oral"
   tags:
     - AutoML
@@ -352,6 +383,7 @@
   pdf: "https://siyuhuang.github.io/papers/AAAI-2022-AutoGCL-Automated%20Graph%20Contrastive%20Learning%20via%20Learnable%20View%20Generators.pdf"
   video: "https://www.youtube.com/watch?v=37iavACXCIw"
   code: "https://github.com/Somedaywilldo/AutoGCL"
+  poster: "https://github.com/Somedaywilldo/AutoGCL/blob/master/poster.pdf"
   tags:
     - AutoML
     - Graph
@@ -397,6 +429,7 @@
   pdf: "https://siyuhuang.github.io/papers/CVPR-2021-ArtFlow%20Unbiased%20Image%20Style%20Transfer%20via%20Reversible%20Neural%20Flows.pdf"
   supp: "https://siyuhuang.github.io/papers/CVPR-2021-ArtFlow%20Unbiased%20Image%20Style%20Transfer%20via%20Reversible%20Neural%20Flows-supp.pdf"
   code: "https://github.com/pkuanjie/ArtFlow"
+  models: "https://github.com/pkuanjie/ArtFlow#pretrained-models"
   tags:
     - Style Transfer
     - Image Synthesis
@@ -423,6 +456,8 @@
   venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2020"
   pdf: "https://siyuhuang.github.io/papers/IJCAI-2020-Generating%20Person%20Images%20with%20Appearance-aware%20Pose%20Stylizer.pdf"
   code: "https://github.com/siyuhuang/PoseStylizer"
+  data: "https://drive.google.com/open?id=13EzWg6tW8a_DBabBbzCgTFuBqiuHahnu"
+  models: "https://drive.google.com/open?id=1LKFYZvwizRpDxslWoyUePC9XG0cpqLzT"
   tags:
     - Image Synthesis
     - GAN
@@ -513,5 +548,6 @@
   authors: "<b>Siyu Huang</b>, Xi Li, Zhongfei Zhang, Zhouzhou He, Fei Wu, Wei Liu, Jinhui Tang, Yueting Zhuang."
   venue: "IEEE Transactions on Image Processing (TIP), 2016"
   pdf: "https://siyuhuang.github.io/papers/TIP-2016-Deep%20Learning%20Driven%20Visual%20Path%20Prediction%20from%20a%20Single%20Image%20.pdf"
+  data: "https://github.com/siyuhuang/Visual-Path-Prediction-TIP-2016/"
   tags:
     - Visual Understanding
