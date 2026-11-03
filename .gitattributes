@@ -1,0 +1,2 @@
+# Preserve PDF bytes and avoid treating uncompressed PDFs as text.
+*.pdf binary
