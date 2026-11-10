@@ -33,7 +33,7 @@
   rank_a: true
   sort_date: "2026-11"
   authors: Danli Shi, Xiaolan Chen, Bingjie Yan, Weiyi Zhang, Jiancheng Yang, Ruoyu Chen, Xinyuan Wu, <b>Siyu Huang</b>, Bowen Liu, Ziyu Gao, Yue Wu, Pusheng Xu, Senlin Lin, Kai Jin, Xia Gong, Yih Chung Tham, Xiujuan Zhang, Li Dong, Yuzhou Zhang, Jason Yam, Guangming Jin, Xiaohu Ding, Haidong Zou, Yalin Zheng, Zongyuan Ge, Mingguang He
-  venue: NEJM AI, 2026 (accepted; arXiv preprint)
+  venue: New England Journal of Medicine Artificial Intelligence (NEJM AI), 2026
   pdf: https://siyuhuang.github.io/papers/NEJM%20AI-2026-EyeAgent%20An%20Agentic%20AI%20System%20for%20Multimodal%20Clinical%20Decision%20Support%20in%20Ophthalmology.pdf
   paper: https://arxiv.org/abs/2511.09394
   tags:
