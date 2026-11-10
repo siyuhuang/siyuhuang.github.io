@@ -1,6 +1,12 @@
-# _data/publications.yml
+# Publications: year descending, then rank_a first, then sort_date descending.
+# rank_a follows the lab's agreed venue scope, not a strict external ranking.
+# sort_date is month precision; same-month entries retain their prior order.
+# A null sort_date preserves the entry among its original group neighbors.
+# EyeAgent uses acceptance month while awaiting formal publication.
 
 - title: "Lang-SVG: Hierarchical Image Vectorization with Language Priors"
+  rank_a: true
+  sort_date: "2026-12"
   authors: "Xi Liu, Chaoyi Zhou, Run Wang, Jiaang Li, Feng Luo, Junxiang Huang, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
   paper: "https://neurips.cc/virtual/2026/poster/155278"
@@ -9,6 +15,8 @@
     - LLMs
 
 - title: "Language-Conditioned World Modeling for Visual Navigation"
+  rank_a: true
+  sort_date: "2026-12"
   authors: "Yifei Dong, Fengyi Wu, Yilong Dai, Lingdong Kong, Guangyu Chen, Qiyu Hu, Yetong Sha, Feng Liu, <b>Siyu Huang</b>, Qi Dai, Zhi-Qi Cheng"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
   pdf: "https://siyuhuang.github.io/papers/NeurIPS-2026-Language-Conditioned%20World%20Modeling%20for%20Visual%20Navigation.pdf"
@@ -20,19 +28,22 @@
   tags:
     - 3D
     - LLMs
-    
-- title: "Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors"
-  authors: "Lanqing Guo, Yufei Wang, Hezhen Hu, Yan Zheng, Yeying Jin, <b>Siyu Huang</b>, Zhangyang Wang"
-  venue: "International Journal of Computer Vision (IJCV), 2026"
-  pdf: "https://siyuhuang.github.io/papers/IJCV-2026-Mastering%20Regional%203DGS.pdf"
-  paper: "https://link.springer.com/article/10.1007/s11263-026-02941-w"
+
+- title: 'EyeAgent: An Agentic AI System for Multimodal Clinical Decision Support in Ophthalmology'
+  rank_a: true
+  sort_date: "2026-11"
+  authors: Danli Shi, Xiaolan Chen, Bingjie Yan, Weiyi Zhang, Jiancheng Yang, Ruoyu Chen, Xinyuan Wu, <b>Siyu Huang</b>, Bowen Liu, Ziyu Gao, Yue Wu, Pusheng Xu, Senlin Lin, Kai Jin, Xia Gong, Yih Chung Tham, Xiujuan Zhang, Li Dong, Yuzhou Zhang, Jason Yam, Guangming Jin, Xiaohu Ding, Haidong Zou, Yalin Zheng, Zongyuan Ge, Mingguang He
+  venue: NEJM AI, 2026 (accepted; arXiv preprint)
+  pdf: https://siyuhuang.github.io/papers/NEJM%20AI-2026-EyeAgent%20An%20Agentic%20AI%20System%20for%20Multimodal%20Clinical%20Decision%20Support%20in%20Ophthalmology.pdf
+  paper: https://arxiv.org/abs/2511.09394
   tags:
-    - 3D
-    - Graphics
-    - Diffusion Model
-    - Image Synthesis
+  - Medical
+  - Multimodal
+  - LLMs
 
 - title: "ScamBench: A Multi-Dimensional Scam Benchmark through Human-AI Collaborative Data Construction"
+  rank_a: true
+  sort_date: "2026-10"
   authors: "Huaye Li, <b>Siyu Huang</b>, Jinkyung Katie Park"
   venue: "Empirical Methods in Natural Language Processing (EMNLP) Findings, 2026"
   pdf: "https://siyuhuang.github.io/papers/EMNLP-Findings-2026-ScamBench%20A%20Multi-Dimensional%20Scam%20Benchmark%20through%20Human-AI%20Collaborative%20Data%20Construction.pdf"
@@ -43,7 +54,22 @@
     - LLMs
     - Dataset and Benchmark
 
+- title: "Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors"
+  rank_a: true
+  sort_date: "2026-08"
+  authors: "Lanqing Guo, Yufei Wang, Hezhen Hu, Yan Zheng, Yeying Jin, <b>Siyu Huang</b>, Zhangyang Wang"
+  venue: "International Journal of Computer Vision (IJCV), 2026"
+  pdf: "https://siyuhuang.github.io/papers/IJCV-2026-Mastering%20Regional%203DGS.pdf"
+  paper: "https://link.springer.com/article/10.1007/s11263-026-02941-w"
+  tags:
+    - 3D
+    - Graphics
+    - Diffusion Model
+    - Image Synthesis
+
 - title: "HAD: Hallucination-Aware Diffusion Priors for 3D Reconstruction"
+  rank_a: true
+  sort_date: "2026-06"
   authors: "Xi Liu, Weiwei Sun, Zhou Ren, Chris Broaddus, <b>Siyu Huang</b>, Laurent Guigues"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
   pdf: "https://siyuhuang.github.io/papers/CVPR-2026-HAD%20Hallucination-Aware%20Diffusion%20Priors%20for%203D%20Reconstruction.pdf"
@@ -55,8 +81,10 @@
     - Graphics
     - Diffusion Model
     - Image Synthesis
-    
+
 - title: "FF3R: Feedforward Feature 3D Reconstruction from Unconstrained Views"
+  rank_a: true
+  sort_date: "2026-06"
   authors: "Chaoyi Zhou, Run Wang, Feng Luo, Mert D. Pesé, Zhiwen Fan, Yiqi Zhong, <b>Siyu Huang</b>"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Findings, 2026"
   pdf: "https://siyuhuang.github.io/papers/CVPR-Findings-2026-FF3R%20Feedforward%20Feature%203D%20Reconstruction%20from%20Unconstrained%20Views.pdf"
@@ -68,6 +96,8 @@
     - Graphics
 
 - title: "Fundus to Fluorescein Angiography Video Generation as a Retinal Generative Foundation Model"
+  rank_a: true
+  sort_date: "2026-06"
   authors: "Weiyi Zhang, Jiancheng Yang, Ruoyu Chen, <b>Siyu Huang</b>, Pusheng Xu, Xiaolan Chen, Zhenhan Wang, Shanfu Lu, Hongyu Cao, Xianwen Shang, Danli Shi, Mingguang He"
   venue: "npj Digital Medicine, 2026"
   pdf: "https://siyuhuang.github.io/papers/npj%20Digital%20Medicine-2026-Fundus%20to%20Fluorescein%20Angiography%20Video%20Generation%20as%20a%20Retinal%20Generative%20Foundation%20Model.pdf"
@@ -79,6 +109,8 @@
     - Image Synthesis
 
 - title: "Toward Inherently Robust VLMs Against Visual Perception Attacks"
+  rank_a: false
+  sort_date: "2026-06"
   authors: "Pedram Mohajer Ansari, Amir Salarpour, Michael Kühr, <b>Siyu Huang</b>, Mohammad Hamad, Habeeb Olufowobi, Sebastian Steinhorst, Bing Li, Mert Pesé"
   venue: "IEEE Intelligent Vehicles Symposium (IV), 2026"
   pdf: "https://siyuhuang.github.io/papers/IV-2026-Toward%20Inherently%20Robust%20VLMs%20Against%20Visual%20Perception%20Attacks.pdf"
@@ -89,16 +121,9 @@
     - Visual Understanding
     - LLMs
 
-- title: "Synthetic Melanoma Image Generation and Evaluation Using Generative Adversarial Networks"
-  authors: "Pei-Yu Lin, Yidan Shen, Neville Mathew, Renjie Hu, <b>Siyu Huang</b>, Courtney M. Queen, Cameron E. West, Ana Ciurea, George Zouridakis"
-  venue: "Bioengineering, 2026"
-  pdf: "https://siyuhuang.github.io/papers/Bioengineering-2026-Synthetic%20Melanoma%20Image%20Generation%20and%20Evaluation%20Using%20Generative%20Adversarial%20Networks.pdf"
-  tags:
-    - Medical
-    - GAN
-    - Image Synthesis
-
 - title: "Bonnet: Ultra-Fast Whole-Body Bone Segmentation from CT Scans"
+  rank_a: false
+  sort_date: "2026-04"
   authors: "Hanjiang Zhu, Pedro Martelleto Rezende, Zhang Yang, Tong Ye, Bruce Z. Gao, Feng Luo, <b>Siyu Huang</b>, Jiancheng Yang"
   venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2026"
   pdf: "https://siyuhuang.github.io/papers/ISBI-2026-Bonnet%20Ultra-Fast%20Whole-Body%20Bone%20Segmentation%20from%20CT%20Scans.pdf"
@@ -109,7 +134,20 @@
     - Medical
     - Visual Understanding
 
+- title: "Synthetic Melanoma Image Generation and Evaluation Using Generative Adversarial Networks"
+  rank_a: false
+  sort_date: "2026-02"
+  authors: "Pei-Yu Lin, Yidan Shen, Neville Mathew, Renjie Hu, <b>Siyu Huang</b>, Courtney M. Queen, Cameron E. West, Ana Ciurea, George Zouridakis"
+  venue: "Bioengineering, 2026"
+  pdf: "https://siyuhuang.github.io/papers/Bioengineering-2026-Synthetic%20Melanoma%20Image%20Generation%20and%20Evaluation%20Using%20Generative%20Adversarial%20Networks.pdf"
+  tags:
+    - Medical
+    - GAN
+    - Image Synthesis
+
 - title: "Bézier Splatting for Fast and Differentiable Vector Graphics Rendering"
+  rank_a: true
+  sort_date: "2025-11"
   authors: "Xi Liu, Chaoyi Zhou, Nanxuan Zhao, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2025"
   pdf: "https://siyuhuang.github.io/papers/NeurIPS-2025-B%C3%A9zier%20Splatting%20for%20Fast%20and%20Differentiable%20Vector%20Graphics%20Rendering.pdf"
@@ -118,7 +156,20 @@
   tags:
     - Graphics
 
+- title: "AutoAL: Automated Active Learning with Differentiable Query Strategy Search"
+  rank_a: true
+  sort_date: "2025-07"
+  authors: "Yifeng Wang, Xueying Zhan, <b>Siyu Huang</b>"
+  venue: "International Conference on Machine Learning (ICML), 2025"
+  pdf: "https://siyuhuang.github.io/papers/ICML-2025-AutoAL%20Automated%20Active%20Learning%20with%20Differentiable%20Query%20Strategy%20Search.pdf"
+  code: "https://github.com/haizailache999/AutoAL"
+  tags:
+    - Active Learning
+    - AutoML
+
 - title: "A Multimodal Visual–Language Foundation Model for Computational Ophthalmology"
+  rank_a: true
+  sort_date: "2025-06"
   authors: "Danli Shi, Weiyi Zhang, Jiancheng Yang, <b>Siyu Huang</b>, Xiaolan Chen, Mayinuer Yusufu, Kai Jin, Shan Lin, Shunming Liu, Qing Zhang, Mingguang He"
   venue: "npj Digital Medicine, 2025"
   pdf: "https://siyuhuang.github.io/papers/npj%20Digital%20Medicine-2025-A%20Multimodal%20Visual%E2%80%93Language%20Foundation%20Model%20for%20Computational%20Ophthalmology.pdf"
@@ -130,41 +181,9 @@
     - Foundation Model
     - LLMs
 
-- title: "AutoAL: Automated Active Learning with Differentiable Query Strategy Search"
-  authors: "Yifeng Wang, Xueying Zhan, <b>Siyu Huang</b>"
-  venue: "International Conference on Machine Learning (ICML), 2025"
-  pdf: "https://siyuhuang.github.io/papers/ICML-2025-AutoAL%20Automated%20Active%20Learning%20with%20Differentiable%20Query%20Strategy%20Search.pdf"
-  code: "https://github.com/haizailache999/AutoAL"
-  tags:
-    - Active Learning
-    - AutoML
-
-- title: "Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement"
-  authors: "Yunhan Ren, Feng Luo, <b>Siyu Huang</b>"
-  venue: "ACM International Conference on Multimedia Retrieval (ICMR), 2025"
-  pdf: "https://siyuhuang.github.io/papers/ICMR-2025-Few-Shot%20Generalized%20Category%20Discovery%20With%20Retrieval-Guided%20Decision%20Boundary%20Enhancement.pdf"
-  code: "https://github.com/Ryh1218/FSGCD"
-  tags:
-    - Few-Shot Learning
-
-- title: "LoRD: A Low-Rank Defense Method for Adversarial Attack on Diffusion Models"
-  authors: "Jiaxuan Zhu, <b>Siyu Huang</b>"
-  venue: "IEEE International Conference on Multimedia and Expo (ICME), 2025"
-  pdf: "https://siyuhuang.github.io/papers/ICME-2025-LoRD%20A%20Low-Rank%20Defense%20Method%20for%20Adversarial%20Attack%20on%20Diffusion%20Models.pdf"
-  tags:
-    - Diffusion Model
-    - Security
-
-- title: "Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions"
-  authors: "Yifei Dong, Fengyi Wu, Sanjian Zhang, Guangyu Chen, Yuzhi Hu, Masumi Yano, Jingdong Sun, <b>Siyu Huang</b>, Feng Liu, Qi Dai, Zhi-Qi Cheng"
-  venue: "CVPR 4th Anti-UAV Workshop, 2025"
-  pdf: "https://siyuhuang.github.io/papers/CVPRW-2025-Securing%20the%20Skies%20A%20Comprehensive%20Survey%20on%20Anti-UAV%20Methods%2C%20Benchmarking%2C%20and%20Future%20Directions.pdf"
-  award: "Best Paper"
-  tags:
-    - Survey
-    - Security
-
 - title: "SoftShadow: Leveraging Soft Masks for Penumbra-Aware Shadow Removal"
+  rank_a: true
+  sort_date: "2025-06"
   authors: "Xinrui Wang, Lanqing Guo, Xiyu Wang, <b>Siyu Huang</b>, Bihan Wen"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
   pdf: "https://siyuhuang.github.io/papers/CVPR-2025-SoftShadow%20Leveraging%20Soft%20Masks%20for%20Penumbra-Aware%20Shadow%20Removal.pdf"
@@ -173,6 +192,8 @@
     - Image Restoration
 
 - title: "Latent Radiance Fields with 3D-aware 2D Representations"
+  rank_a: true
+  sort_date: "2025-04"
   authors: "Chaoyi Zhou*, Xi Liu*, Feng Luo, <b>Siyu Huang</b>"
   venue: "International Conference on Learning Representations (ICLR), 2025"
   pdf: "https://siyuhuang.github.io/papers/ICLR-2025-Latent%20Radiance%20Fields%20with%203D-aware%202D%20Representations.pdf"
@@ -183,7 +204,40 @@
     - 3D
     - Graphics
 
+- title: "Few-Shot Generalized Category Discovery With Retrieval-Guided Decision Boundary Enhancement"
+  rank_a: false
+  sort_date: "2025-06"
+  authors: "Yunhan Ren, Feng Luo, <b>Siyu Huang</b>"
+  venue: "ACM International Conference on Multimedia Retrieval (ICMR), 2025"
+  pdf: "https://siyuhuang.github.io/papers/ICMR-2025-Few-Shot%20Generalized%20Category%20Discovery%20With%20Retrieval-Guided%20Decision%20Boundary%20Enhancement.pdf"
+  code: "https://github.com/Ryh1218/FSGCD"
+  tags:
+    - Few-Shot Learning
+
+- title: "LoRD: A Low-Rank Defense Method for Adversarial Attack on Diffusion Models"
+  rank_a: false
+  sort_date: "2025-06"
+  authors: "Jiaxuan Zhu, <b>Siyu Huang</b>"
+  venue: "IEEE International Conference on Multimedia and Expo (ICME), 2025"
+  pdf: "https://siyuhuang.github.io/papers/ICME-2025-LoRD%20A%20Low-Rank%20Defense%20Method%20for%20Adversarial%20Attack%20on%20Diffusion%20Models.pdf"
+  tags:
+    - Diffusion Model
+    - Security
+
+- title: "Securing the Skies: A Comprehensive Survey on Anti-UAV Methods, Benchmarking, and Future Directions"
+  rank_a: false
+  sort_date: "2025-06"
+  authors: "Yifei Dong, Fengyi Wu, Sanjian Zhang, Guangyu Chen, Yuzhi Hu, Masumi Yano, Jingdong Sun, <b>Siyu Huang</b>, Feng Liu, Qi Dai, Zhi-Qi Cheng"
+  venue: "CVPR 4th Anti-UAV Workshop, 2025"
+  pdf: "https://siyuhuang.github.io/papers/CVPRW-2025-Securing%20the%20Skies%20A%20Comprehensive%20Survey%20on%20Anti-UAV%20Methods%2C%20Benchmarking%2C%20and%20Future%20Directions.pdf"
+  award: "Best Paper"
+  tags:
+    - Survey
+    - Security
+
 - title: "3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors"
+  rank_a: true
+  sort_date: "2024-12"
   authors: "Xi Liu*, Chaoyi Zhou*, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2024"
   pdf: "https://siyuhuang.github.io/papers/NeurIPS-2024-3DGS-Enhancer%20Enhancing%20Unbounded%203D%20Gaussian%20Splatting%20with%20View-consistent%202D%20Diffusion%20Priors.pdf"
@@ -197,7 +251,21 @@
     - Diffusion Model
     - Image Synthesis
 
+- title: "Fundus2Video: Cross-Modal Angiography Video Generation from Static Fundus Photography with Clinical Knowledge Guidance"
+  rank_a: true
+  sort_date: "2024-10"
+  authors: "Weiyi Zhang, <b>Siyu Huang</b>, Jiancheng Yang, Ruoyu Chen, Zongyuan Ge, Yingfeng Zheng, Danli Shi, Mingguang He"
+  venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024"
+  pdf: "https://siyuhuang.github.io/papers/MICCAI-2024-Fundus2Video%20Cross-Modal%20Angiography%20Video%20Generation%20from%20Static%20Fundus%20Photography%20with%20Clinical%20Knowledge%20Guidance.pdf"
+  code: "https://github.com/Michi-3000/Fundus2Video"
+  tags:
+    - Medical
+    - Multimodal
+    - Image Synthesis
+
 - title: "Make a Cheap Scaling: A Self-Cascade Diffusion Model for Higher-Resolution Adaptation"
+  rank_a: true
+  sort_date: "2024-09"
   authors: "Lanqing Guo, Yingqing He, Haoxin Chen, Menghan Xia, Xiaodong Cun, Yufei Wang, <b>Siyu Huang</b>, Yong Zhang, Xintao Wang, Qifeng Chen, Ying Shan, Bihan Wen"
   venue: "European Conference on Computer Vision (ECCV), 2024"
   pdf: "https://siyuhuang.github.io/papers/ECCV-2024-Make%20a%20Cheap%20Scaling%20A%20Self-Cascade%20Diffusion%20Model%20for%20Higher-Resolution%20Adaptation.pdf"
@@ -208,17 +276,9 @@
     - Diffusion Model
     - Image Synthesis
 
-- title: "Fundus2Video: Cross-Modal Angiography Video Generation from Static Fundus Photography with Clinical Knowledge Guidance"
-  authors: "Weiyi Zhang, <b>Siyu Huang</b>, Jiancheng Yang, Ruoyu Chen, Zongyuan Ge, Yingfeng Zheng, Danli Shi, Mingguang He"
-  venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024"
-  pdf: "https://siyuhuang.github.io/papers/MICCAI-2024-Fundus2Video%20Cross-Modal%20Angiography%20Video%20Generation%20from%20Static%20Fundus%20Photography%20with%20Clinical%20Knowledge%20Guidance.pdf"
-  code: "https://github.com/Michi-3000/Fundus2Video"
-  tags:
-    - Medical
-    - Multimodal
-    - Image Synthesis
-
 - title: "MTPret: Improving X-ray Image Analytics with Multi-Task Pre-training"
+  rank_a: false
+  sort_date: "2024-09"
   authors: "Weibin Liao, Qingzhong Wang, Xuhong Li, Yi Liu, Zeyu Chen, <b>Siyu Huang</b>, Dejing Dou, Yanwu Xu, Haoyi Xiong"
   venue: "IEEE Transactions on Artificial Intelligence (TAI), 2024"
   pdf: "https://siyuhuang.github.io/papers/TAI-2024-MTPret_Improving_X-Ray_Image_Analytics_With_Multitask_Pretraining.pdf"
@@ -227,6 +287,8 @@
     - Foundation Model
 
 - title: "Learning Gaze-aware Compositional GAN from Limited Annotations"
+  rank_a: false
+  sort_date: "2024-06"
   authors: "Nerea Aranjuelo Ansa, <b>Siyu Huang</b>, Ignacio Arganda-Carreras, Luis Unzueta Irurtia, Oihana Otaegui Madurga, Hanspeter Pfister, Donglai Wei"
   venue: "ACM Symposium of Eye Tracking Research & Applications (ETRA), 2024"
   pdf: "https://siyuhuang.github.io/papers/ETRA-2024-Learning Gaze-aware Compositional GAN from Limited Annotations.pdf"
@@ -237,6 +299,8 @@
     - Image Synthesis
 
 - title: "S3-TTA: Scale-Style Selection for Test-Time Augmentation in Biomedical Image Segmentation"
+  rank_a: false
+  sort_date: "2024-05"
   authors: "Kangxian Xie, <b>Siyu Huang</b>, Sebastian Andres Cajas Ordonez, Hanspeter Pfister, Donglai Wei"
   venue: "IEEE International Symposium on Biomedical Imaging (ISBI), 2024"
   pdf: "https://siyuhuang.github.io/papers/ISBI-2024-S3-TTA%20Scale-Style%20Selection%20for%20Test-Time%20Augmentation%20in%20Biomedical%20Image%20Segmentation.pdf"
@@ -245,22 +309,9 @@
     - Biomedical
     - Image Synthesis
 
-- title: "Towards Robust Image Denoising via Flow-based Joint Image and Noise Model"
-  authors: "Lanqing Guo, <b>Siyu Huang</b>, Haosen Liu, and Bihan Wen"
-  venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2023"
-  pdf: "https://siyuhuang.github.io/papers/TCSVT-2023-Towards_Robust_Image_Denoising_via_Flow-based_Joint_Image_and_Noise_Model.pdf"
-  tags:
-    - Image Restoration
-    - Flow-based Model
-
-- title: "ContRE: A Complementary Measure for Robustness Evaluation of Deep Networks via Contrastive Examples"
-  authors: "Xuhong Li, Xuanyu Wu, Linghe Kong, Xiao Zhang, <b>Siyu Huang</b>, Dejing Dou, and Haoyi Xiong"
-  venue: "IEEE International Conference on Data Mining (ICDM), 2023"
-  pdf: "https://siyuhuang.github.io/papers/ICDM-2023-ContRE_A_Complementary_Measure_for_Robustness_Evaluation_of_Deep_Networks_via_Contrastive_Examples.pdf"
-  tags:
-    - Explainable AI
-    
 - title: "Domain-Scalable Unpaired Image Translation via Latent Space Anchoring"
+  rank_a: true
+  sort_date: "2023-10"
   authors: "<b>Siyu Huang*</b>, Jie An*, Donglai Wei, Zudi Lin, Jiebo Luo, Hanspeter Pfister"
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2023"
   pdf: "https://siyuhuang.github.io/papers/TPAMI-2023-Domain-Scalable_Unpaired_Image_Translation_Via_Latent_Space_Anchoring.pdf"
@@ -269,7 +320,64 @@
   tags:
     - Image Synthesis
 
+- title: "QuantArt: Quantizing Image Style Transfer Towards High Visual Fidelity"
+  rank_a: true
+  sort_date: "2023-06"
+  authors: "<b>Siyu Huang*</b>, Jie An*, Donglai Wei, Jiebo Luo, Hanspeter Pfister"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
+  pdf: "https://siyuhuang.github.io/papers/CVPR-2023-QuantArt%20Quantizing%20Image%20Style%20Transfer%20Towards%20High%20Visual%20Fidelity.pdf"
+  slides: "https://siyuhuang.github.io/papers/CVPR23-QuantArt-slides.pdf"
+  code: "https://github.com/siyuhuang/QuantArt"
+  models: "https://github.com/siyuhuang/QuantArt#datasets-and-pre-trained-models"
+  tags:
+    - Style Transfer
+    - Image Synthesis
+
+- title: "ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal"
+  rank_a: true
+  sort_date: "2023-06"
+  authors: "Lanqing Guo, Chong Wang, Wenhan Yang, <b>Siyu Huang</b>, Yufei Wang, Hanspeter Pfister, Bihan Wen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
+  pdf: "https://siyuhuang.github.io/papers/CVPR-2023-ShadowDiffusion%20When%20Degradation%20Prior%20Meets%20Diffusion%20Model%20for%20Shadow%20Removal.pdf"
+  code: "https://github.com/GuoLanqing/ShadowDiffusion"
+  models: "https://drive.google.com/file/d/12VV5HzxlIg_kCjMHsw8R9n543wYfGfAB/view"
+  tags:
+    - Image Restoration
+    - Diffusion Model
+
+- title: "ShadowFormer: Global Context Helps Shadow Removal"
+  rank_a: true
+  sort_date: "2023-02"
+  authors: "Lanqing Guo, <b>Siyu Huang</b>, Ding Liu, Hao Cheng, Bihan Wen"
+  venue: "AAAI Conference on Artificial Intelligence (AAAI), 2023"
+  pdf: "https://siyuhuang.github.io/papers/AAAI-2023-ShadowFormer%20Global%20Context%20Helps%20Shadow%20Removal.pdf"
+  code: "https://github.com/GuoLanqing/ShadowFormer"
+  models: "https://github.com/GuoLanqing/ShadowFormer#pretrained-models"
+  tags:
+    - Image Restoration
+
+- title: "Towards Robust Image Denoising via Flow-based Joint Image and Noise Model"
+  rank_a: false
+  sort_date: "2023-12"
+  authors: "Lanqing Guo, <b>Siyu Huang</b>, Haosen Liu, and Bihan Wen"
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2023"
+  pdf: "https://siyuhuang.github.io/papers/TCSVT-2023-Towards_Robust_Image_Denoising_via_Flow-based_Joint_Image_and_Noise_Model.pdf"
+  tags:
+    - Image Restoration
+    - Flow-based Model
+
+- title: "ContRE: A Complementary Measure for Robustness Evaluation of Deep Networks via Contrastive Examples"
+  rank_a: false
+  sort_date: "2023-12"
+  authors: "Xuhong Li, Xuanyu Wu, Linghe Kong, Xiao Zhang, <b>Siyu Huang</b>, Dejing Dou, and Haoyi Xiong"
+  venue: "IEEE International Conference on Data Mining (ICDM), 2023"
+  pdf: "https://siyuhuang.github.io/papers/ICDM-2023-ContRE_A_Complementary_Measure_for_Robustness_Evaluation_of_Deep_Networks_via_Contrastive_Examples.pdf"
+  tags:
+    - Explainable AI
+
 - title: "3D Domain Adaptive Instance Segmentation via Cyclic Segmentation GANs"
+  rank_a: false
+  sort_date: "2023-08"
   authors: "Leander Lauenburg, Zudi Lin, Ruihan Zhang, Marcia dos Santos, <b>Siyu Huang</b>, Ignacio Arganda-Carreras, Edward S. Boyden, Hanspeter Pfister, Donglai Wei"
   venue: "IEEE Journal of Biomedical and Health Informatics (JBHI), 2023"
   pdf: "https://siyuhuang.github.io/papers/JBHI-2023-3D_Domain_Adaptive_Instance_Segmentation_Via_Cyclic_Segmentation_GANs.pdf"
@@ -282,28 +390,9 @@
     - GAN
     - Image Synthesis
 
-- title: "QuantArt: Quantizing Image Style Transfer Towards High Visual Fidelity"
-  authors: "<b>Siyu Huang*</b>, Jie An*, Donglai Wei, Jiebo Luo, Hanspeter Pfister"
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
-  pdf: "https://siyuhuang.github.io/papers/CVPR-2023-QuantArt%20Quantizing%20Image%20Style%20Transfer%20Towards%20High%20Visual%20Fidelity.pdf"
-  slides: "https://siyuhuang.github.io/papers/CVPR23-QuantArt-slides.pdf"
-  code: "https://github.com/siyuhuang/QuantArt"
-  models: "https://github.com/siyuhuang/QuantArt#datasets-and-pre-trained-models"
-  tags:
-    - Style Transfer
-    - Image Synthesis
-
-- title: "ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal"
-  authors: "Lanqing Guo, Chong Wang, Wenhan Yang, <b>Siyu Huang</b>, Yufei Wang, Hanspeter Pfister, Bihan Wen"
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023"
-  pdf: "https://siyuhuang.github.io/papers/CVPR-2023-ShadowDiffusion%20When%20Degradation%20Prior%20Meets%20Diffusion%20Model%20for%20Shadow%20Removal.pdf"
-  code: "https://github.com/GuoLanqing/ShadowDiffusion"
-  models: "https://drive.google.com/file/d/12VV5HzxlIg_kCjMHsw8R9n543wYfGfAB/view"
-  tags:
-    - Image Restoration
-    - Diffusion Model
-
 - title: "Making Your First Choice: To Address Cold Start Problem in Vision Active Learning"
+  rank_a: false
+  sort_date: "2023-07"
   authors: "Liangyu Chen, Yutong Bai, <b>Siyu Huang</b>, Yongyi Lu, Bihan Wen, Alan Yuille, Zongwei Zhou"
   venue: "Medical Imaging with Deep Learning (MIDL), 2023"
   pdf: "https://siyuhuang.github.io/papers/MIDL-2023-Making%20Your%20First%20Choice%20To%20Address%20Cold%20Start%20Problem%20in%20Vision%20Active%20Learning.pdf"
@@ -313,6 +402,8 @@
     - Medical
 
 - title: "Cross-Model Consensus of Explanations and Beyond for Image Classification Models: An Empirical Study"
+  rank_a: false
+  sort_date: "2023-02"
   authors: "Xuhong Li, Haoyi Xiong, <b>Siyu Huang</b>, Shilei Ji, Dejing Dou"
   venue: "Machine Learning, European Conference on Machine Learning 2022 journal track (MLJ), 2023"
   pdf: "https://siyuhuang.github.io/papers/MLJ-2023-Cross%E2%80%91model%20consensus%20of%20explanations%20and%20beyond%20for%20image%20classifcation%20models%20an%20empirical%20study.pdf"
@@ -320,24 +411,9 @@
   tags:
     - Explainable AI
 
-- title: "ShadowFormer: Global Context Helps Shadow Removal"
-  authors: "Lanqing Guo, <b>Siyu Huang</b>, Ding Liu, Hao Cheng, Bihan Wen"
-  venue: "AAAI Conference on Artificial Intelligence (AAAI), 2023"
-  pdf: "https://siyuhuang.github.io/papers/AAAI-2023-ShadowFormer%20Global%20Context%20Helps%20Shadow%20Removal.pdf"
-  code: "https://github.com/GuoLanqing/ShadowFormer"
-  models: "https://github.com/GuoLanqing/ShadowFormer#pretrained-models"
-  tags:
-    - Image Restoration
-
-- title: "Temporal Output Discrepancy for Loss Estimation-based Active Learning"
-  authors: "<b>Siyu Huang</b>, Tianyang Wang, Haoyi Xiong, Bihan Wen, Jun Huan, Dejing Dou"
-  venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2022"
-  pdf: "https://siyuhuang.github.io/papers/TNNLS-2022-Temporal_Output_Discrepancy_for_Loss_Estimation-Based_Active_Learning.pdf"
-  code: "https://github.com/siyuhuang/TOD"
-  tags:
-    - Active Learning
-
 - title: "MUSCLE: Multi-task Self-supervised Continual Learning to Pre-train Deep Models for X-ray Images of Multiple Body Parts"
+  rank_a: true
+  sort_date: "2022-09"
   authors: "Weibin Liao, Haoyi Xiong, Qingzhong Wang, Yan Mo, Xuhong Li, Yi Liu, Zeyu Chen, <b>Siyu Huang</b>, Dejing Dou"
   venue: "Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022"
   pdf: "https://siyuhuang.github.io/papers/MICCAI-2022-MUSCLE-%20Multi-task%20Self-supervised%20Continual%20Learning%20to%20Pre-train%20Deep%20Models%20for%20X-Ray%20Images%20of%20Multiple%20Body%20Parts.pdf"
@@ -345,7 +421,19 @@
     - Medical
     - Foundation Model
 
+- title: "Temporal Output Discrepancy for Loss Estimation-based Active Learning"
+  rank_a: true
+  sort_date: "2022-07"
+  authors: "<b>Siyu Huang</b>, Tianyang Wang, Haoyi Xiong, Bihan Wen, Jun Huan, Dejing Dou"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2022"
+  pdf: "https://siyuhuang.github.io/papers/TNNLS-2022-Temporal_Output_Discrepancy_for_Loss_Estimation-Based_Active_Learning.pdf"
+  code: "https://github.com/siyuhuang/TOD"
+  tags:
+    - Active Learning
+
 - title: "A Unified Framework for Bidirectional Prototype Learning from Contaminated Faces across Heterogeneous Domains"
+  rank_a: true
+  sort_date: null
   authors: "Meng Pang, Binghui Wang, <b>Siyu Huang</b>, Yiu-ming Cheung, Bihan Wen"
   venue: "IEEE Transactions on Information Forensics and Security (TIFS), 2022"
   pdf: "https://siyuhuang.github.io/papers/TIFS-2022-A_Unified_Framework_for_Bidirectional_Prototype_Learning_from_Contaminated_Faces_across_Heterogeneous_Domains.pdf"
@@ -355,17 +443,9 @@
     - Security
     - Face
 
-- title: "Parameter-Free Style Projection for Arbitrary Style Transfer"
-  authors: "<b>Siyu Huang</b>, Haoyi Xiong, Tianyang Wang, Bihan Wen, Qingzhong Wang, Zeyu Chen, Jun Huan, Dejing Dou"
-  venue: "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2022"
-  pdf: "https://siyuhuang.github.io/papers/ICASSP-2022-Parameter-Free_Style_Projection_for_Arbitrary_Image_Style_Transfer.pdf"
-  code: "https://github.com/PaddlePaddle/PaddleHub/tree/dbca09ae78b5387ebe3b49f37ce88de45d41d26a/hub_module/modules/image/style_transfer/stylepro_artistic"
-  demo: "https://www.paddlepaddle.org.cn/hubdetail?name=stylepro_artistic"
-  tags:
-    - Style Transfer
-    - Image Synthesis
-
 - title: "BM-NAS: Bilevel Multimodal Neural Architecture Search"
+  rank_a: true
+  sort_date: "2022-02"
   authors: "Yihang Yin, <b>Siyu Huang</b>, Xiang Zhang"
   venue: "AAAI Conference on Artificial Intelligence (AAAI), 2022"
   pdf: "https://siyuhuang.github.io/papers/AAAI-2022-BM-NAS-Bilevel%20Multimodal%20Neural%20Architecture%20Search.pdf"
@@ -378,6 +458,8 @@
     - Multimodal
 
 - title: "AutoGCL: Automated Graph Contrastive Learning via Learnable View Generators"
+  rank_a: true
+  sort_date: "2022-02"
   authors: "Yihang Yin, Qingzhong Wang, <b>Siyu Huang</b>, Haoyi Xiong, Xiang Zhang"
   venue: "AAAI Conference on Artificial Intelligence (AAAI), 2022"
   pdf: "https://siyuhuang.github.io/papers/AAAI-2022-AutoGCL-Automated%20Graph%20Contrastive%20Learning%20via%20Learnable%20View%20Generators.pdf"
@@ -389,6 +471,8 @@
     - Graph
 
 - title: "Boosting Active Learning via Improving Test Performance"
+  rank_a: true
+  sort_date: "2022-02"
   authors: "Tianyang Wang, Xingjian Li, Pengkun Yang, Guosheng Hu, Xiangrui Zeng, <b>Siyu Huang</b>, Cheng-Zhong Xu, Min Xu"
   venue: "AAAI Conference on Artificial Intelligence (AAAI), 2022"
   pdf: "https://siyuhuang.github.io/papers/AAAI-2022-Boosting%20Active%20Learning%20via%20Improving%20Test%20Performance.pdf"
@@ -396,7 +480,21 @@
   tags:
     - Active Learning
 
+- title: "Parameter-Free Style Projection for Arbitrary Style Transfer"
+  rank_a: false
+  sort_date: "2022-05"
+  authors: "<b>Siyu Huang</b>, Haoyi Xiong, Tianyang Wang, Bihan Wen, Qingzhong Wang, Zeyu Chen, Jun Huan, Dejing Dou"
+  venue: "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2022"
+  pdf: "https://siyuhuang.github.io/papers/ICASSP-2022-Parameter-Free_Style_Projection_for_Arbitrary_Image_Style_Transfer.pdf"
+  code: "https://github.com/PaddlePaddle/PaddleHub/tree/dbca09ae78b5387ebe3b49f37ce88de45d41d26a/hub_module/modules/image/style_transfer/stylepro_artistic"
+  demo: "https://www.paddlepaddle.org.cn/hubdetail?name=stylepro_artistic"
+  tags:
+    - Style Transfer
+    - Image Synthesis
+
 - title: "Semi-Supervised Active Learning with Temporal Output Discrepancy"
+  rank_a: true
+  sort_date: "2021-10"
   authors: "<b>Siyu Huang</b>, Tianyang Wang, Haoyi Xiong, Jun Huan, Dejing Dou"
   venue: "International Conference on Computer Vision (ICCV), 2021"
   pdf: "https://siyuhuang.github.io/papers/ICCV-2021-Semi-Supervised%20Active%20Learning%20with%20Temporal%20Output%20Discrepancy.pdf"
@@ -409,6 +507,8 @@
     - Active Learning
 
 - title: "ReLLIE: Deep Reinforcement Learning for Customized Low-Light Image Enhancement"
+  rank_a: true
+  sort_date: "2021-10"
   authors: "Rongkai Zhang, Lanqing Guo, <b>Siyu Huang</b>, Bihan Wen"
   venue: "ACM International Conference on Multimedia (ACM MM), 2021"
   pdf: "https://siyuhuang.github.io/papers/ACM%20MM-2021-ReLLIE%20Deep%20Reinforcement%20Learning%20for%20Customized%20Low-Light%20Image%20Enhancement.pdf"
@@ -416,14 +516,9 @@
   tags:
     - Image Restoration
 
-- title: "An Investigation of Containment Measure Implementation and Public Responses to the COVID-19 Pandemic in Mainland China"
-  authors: "Ji Liu, Haoyi Xiong, Xiakai Wang, Jizhou Huang, Qiaojun Li, Tongtong Huang, <b>Siyu Huang</b>, Haifeng Wang, Dejing Dou"
-  venue: "IEEE International Conference on Digital Health (ICDH), 2021"
-  pdf: "https://ieeexplore.ieee.org/abstract/document/9581178"
-  tags:
-    - Medical
-
 - title: "ArtFlow: Unbiased Image Style Transfer via Reversible Neural Flows"
+  rank_a: true
+  sort_date: "2021-06"
   authors: "Jie An*, <b>Siyu Huang*</b>, Yibing Song, Dejing Dou, Wei Liu, Jiebo Luo"
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021"
   pdf: "https://siyuhuang.github.io/papers/CVPR-2021-ArtFlow%20Unbiased%20Image%20Style%20Transfer%20via%20Reversible%20Neural%20Flows.pdf"
@@ -435,7 +530,18 @@
     - Image Synthesis
     - Flow-based Model
 
+- title: "An Investigation of Containment Measure Implementation and Public Responses to the COVID-19 Pandemic in Mainland China"
+  rank_a: false
+  sort_date: "2021-09"
+  authors: "Ji Liu, Haoyi Xiong, Xiakai Wang, Jizhou Huang, Qiaojun Li, Tongtong Huang, <b>Siyu Huang</b>, Haifeng Wang, Dejing Dou"
+  venue: "IEEE International Conference on Digital Health (ICDH), 2021"
+  pdf: "https://ieeexplore.ieee.org/abstract/document/9581178"
+  tags:
+    - Medical
+
 - title: "Dual Low-Rank Multimodal Fusion"
+  rank_a: true
+  sort_date: "2020-11"
   authors: "Tao Jin*, <b>Siyu Huang*</b>, Yingming Li, Zhongfei Zhang"
   venue: "Findings of the Association for Computational Linguistics: EMNLP (EMNLP Findings), 2020"
   pdf: "https://siyuhuang.github.io/papers/EMNLP-Findings-2020-Dual%20Low-Rank%20Multimodal%20Fusion.pdf"
@@ -443,15 +549,9 @@
     - Multimodal
     - Visual Understanding
 
-- title: "Neighbours Matter: Image Captioning with Similar Images"
-  authors: "Qingzhong Wang, Jiuniu Wang, Antoni Chan, <b>Siyu Huang</b>, Haoyi Xiong, Xingjian Li, Dejing Dou"
-  venue: "British Machine Vision Conference (BMVC), 2020"
-  pdf: "https://siyuhuang.github.io/papers/BMVC-2020-Neighbours%20Matter-%20Image%20Captioning%20with%20Similar%20Images.pdf"
-  tags:
-    - Multimodal
-    - Visual Understanding
-
 - title: "Generating Person Images with Appearance-aware Pose Stylizer"
+  rank_a: true
+  sort_date: "2020-07"
   authors: "<b>Siyu Huang</b>, Haoyi Xiong, Zhi-Qi Cheng, Qingzhong Wang, Xingran Zhou, Bihan Wen, Jun Huan, Dejing Dou"
   venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2020"
   pdf: "https://siyuhuang.github.io/papers/IJCAI-2020-Generating%20Person%20Images%20with%20Appearance-aware%20Pose%20Stylizer.pdf"
@@ -463,6 +563,8 @@
     - GAN
 
 - title: "SBAT: Video Captioning with Sparse Boundary-Aware Transformer"
+  rank_a: true
+  sort_date: "2020-07"
   authors: "Tao Jin, <b>Siyu Huang</b>, Ming Chen, Yingming Li, Zhongfei Zhang"
   venue: "International Joint Conference on Artificial Intelligence (IJCAI), 2020"
   pdf: "https://siyuhuang.github.io/papers/IJCAI-2020-SBAT%20Video%20Captioning%20with%20Sparse%20Boundary-Aware%20Transformer.pdf"
@@ -470,7 +572,19 @@
     - Multimodal
     - Visual Understanding
 
+- title: "Neighbours Matter: Image Captioning with Similar Images"
+  rank_a: false
+  sort_date: "2020-09"
+  authors: "Qingzhong Wang, Jiuniu Wang, Antoni Chan, <b>Siyu Huang</b>, Haoyi Xiong, Xingjian Li, Dejing Dou"
+  venue: "British Machine Vision Conference (BMVC), 2020"
+  pdf: "https://siyuhuang.github.io/papers/BMVC-2020-Neighbours%20Matter-%20Image%20Captioning%20with%20Similar%20Images.pdf"
+  tags:
+    - Multimodal
+    - Visual Understanding
+
 - title: "Stacked Pooling for Boosting Scale Invariance of Crowd Counting"
+  rank_a: false
+  sort_date: "2020-05"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhi-Qi Cheng, Zhongfei Zhang, Alexander Hauptmann"
   venue: "International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2020"
   pdf: "https://siyuhuang.github.io/papers/ICASSP-2020-STACKED%20POOLING%20FOR%20BOOSTING%20SCALE%20INVARIANCE%20OF%20CROWD%20COUNTING.pdf"
@@ -479,6 +593,8 @@
     - Visual Understanding
 
 - title: "Low-Rank HOCA: Efficient High-Order Cross-Modal Attention for Video Captioning"
+  rank_a: true
+  sort_date: "2019-11"
   authors: "Tao Jin, <b>Siyu Huang</b>, Yingming Li, Zhongfei Zhang"
   venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2019"
   pdf: "https://siyuhuang.github.io/papers/EMNLP-2019-Low-Rank%20HOCA.pdf"
@@ -487,6 +603,8 @@
     - Visual Understanding
 
 - title: "Text Guided Person Image Synthesis"
+  rank_a: true
+  sort_date: "2019-06"
   authors: "Xingran Zhou, <b>Siyu Huang</b>, Bin Li, Yingming Li, Jiachen Li, Zhongfei Zhang."
   venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019"
   pdf: "https://siyuhuang.github.io/papers/CVPR-2019-Text%20Guided%20Person%20Image%20Synthesis.pdf"
@@ -496,6 +614,8 @@
     - GAN
 
 - title: "User-Ranking Video Summarization with Multi-Stage Spatio-Temporal Representation"
+  rank_a: true
+  sort_date: "2019-06"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhongfei Zhang, Fei Wu, Junwei Han."
   venue: "IEEE Transactions on Image Processing (TIP), 2019"
   pdf: "https://siyuhuang.github.io/papers/TIP-2019-User-Ranking%20Video%20Summarization%20with%20Multi-Stage%20Spatio-Temporal%20Representation.pdf"
@@ -503,23 +623,9 @@
   tags:
     - Visual Understanding
 
-- title: "Perceiving Physical Equation by Observing Visual Scenarios"
-  authors: "<b>Siyu Huang*</b>, Zhi-Qi Cheng*, Xi Li, Xiao Wu, Zhongfei Zhang, Alexander Hauptmann."
-  venue: "NeurIPS Workshop on Modeling the Physical World, 2018"
-  pdf: "https://siyuhuang.github.io/papers/NIPSW-2018-Perceiving%20Physical%20Equation%20by%20Observing%20Visual%20Scenarios.pdf"
-  tags:
-    - Physics
-    - Visual Understanding
-
-- title: "TVT: Two-View Transformer Network for Video Captioning"
-  authors: "Ming Chen, Yingming Li, Zhongfei Zhang, <b>Siyu Huang</b>."
-  venue: "Asian Conference on Machine Learning (ACML), 2018"
-  pdf: "https://siyuhuang.github.io/papers/ACML-2018-Two-View%20Transformer%20Network%20for%20Video%20Captioning.pdf"
-  tags:
-    - Multimodal
-    - Visual Understanding
-
 - title: "GNAS: A Greedy Neural Architecture Search Method for Multi-Attribute Learning"
+  rank_a: true
+  sort_date: "2018-10"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhi-Qi Cheng, Zhongfei Zhang, Alexander Hauptmann."
   venue: "ACM International Conference on Multimedia (ACM MM), 2018"
   pdf: "https://siyuhuang.github.io/papers/ACM%20MM-2018-GNAS%20A%20Greedy%20Neural%20Architecture%20Search%20Method%20for%20Multi-attribute%20Learning.pdf"
@@ -530,6 +636,8 @@
     - AutoML
 
 - title: "Learning to Transfer: Generalizable Attribute Learning with Multitask Neural Model Search"
+  rank_a: true
+  sort_date: "2018-10"
   authors: "Zhi-Qi Cheng, Xiao Wu, <b>Siyu Huang</b>, Jun-Xiu Li, Alexander Hauptmann, Qiang Peng."
   venue: "ACM International Conference on Multimedia (ACM MM), 2018"
   pdf: "https://siyuhuang.github.io/papers/ACM%20MM-2018-Learning%20to%20Transfer%20Generalizable%20Attribute%20Learning%20with%20Multitask%20Neural%20Model%20Search.pdf"
@@ -537,6 +645,8 @@
     - AutoML
 
 - title: "Body Structure Aware Deep Crowd Counting"
+  rank_a: true
+  sort_date: "2018-03"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhongfei Zhang, Fei Wu, Shenghua Gao, Rongrong Ji, Junwei Han."
   venue: "IEEE Transactions on Image Processing (TIP), 2018"
   pdf: "https://siyuhuang.github.io/papers/TIP-2018-Body%20Structure%20Aware%20Deep%20Crowd%20Counting.pdf"
@@ -544,7 +654,29 @@
   tags:
     - Visual Understanding
 
+- title: "Perceiving Physical Equation by Observing Visual Scenarios"
+  rank_a: false
+  sort_date: "2018-12"
+  authors: "<b>Siyu Huang*</b>, Zhi-Qi Cheng*, Xi Li, Xiao Wu, Zhongfei Zhang, Alexander Hauptmann."
+  venue: "NeurIPS Workshop on Modeling the Physical World, 2018"
+  pdf: "https://siyuhuang.github.io/papers/NIPSW-2018-Perceiving%20Physical%20Equation%20by%20Observing%20Visual%20Scenarios.pdf"
+  tags:
+    - Physics
+    - Visual Understanding
+
+- title: "TVT: Two-View Transformer Network for Video Captioning"
+  rank_a: false
+  sort_date: "2018-11"
+  authors: "Ming Chen, Yingming Li, Zhongfei Zhang, <b>Siyu Huang</b>."
+  venue: "Asian Conference on Machine Learning (ACML), 2018"
+  pdf: "https://siyuhuang.github.io/papers/ACML-2018-Two-View%20Transformer%20Network%20for%20Video%20Captioning.pdf"
+  tags:
+    - Multimodal
+    - Visual Understanding
+
 - title: "Deep Learning Driven Visual Path Prediction From a Single Image"
+  rank_a: true
+  sort_date: "2016-12"
   authors: "<b>Siyu Huang</b>, Xi Li, Zhongfei Zhang, Zhouzhou He, Fei Wu, Wei Liu, Jinhui Tang, Yueting Zhuang."
   venue: "IEEE Transactions on Image Processing (TIP), 2016"
   pdf: "https://siyuhuang.github.io/papers/TIP-2016-Deep%20Learning%20Driven%20Visual%20Path%20Prediction%20from%20a%20Single%20Image%20.pdf"
