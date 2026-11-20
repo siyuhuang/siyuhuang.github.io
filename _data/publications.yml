@@ -10,6 +10,8 @@
   authors: "Xi Liu, Chaoyi Zhou, Run Wang, Jiaang Li, Feng Luo, Junxiang Huang, <b>Siyu Huang</b>"
   venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
   paper: "https://neurips.cc/virtual/2026/poster/155278"
+  pdf: "https://openreview.net/pdf?id=6rigf2ETWn"
+  project: "https://xiliu8006.github.io/Lang-SVG/"
   tags:
     - Graphics
     - LLMs
